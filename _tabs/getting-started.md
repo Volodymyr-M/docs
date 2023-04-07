@@ -10,7 +10,7 @@ order: 1
 
 Ingantt is multi-platform, so install the version that is right for you device.
 
-- **Web:** Just open this [link](https://ingantt.com/web/)
+- **Web:** Just open this [link](https://web.ingantt.com/)
 - **Windows:** Coming soon
 - **Android:** Coming soon
 
