@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 layout: post
 toc: true
 title: Calendars
@@ -44,7 +43,7 @@ Ingantt has 3 predefined calendars, one of which (Standard) is assigned to the P
 | **Standard**     | Work is done each day Monday to Friday, 8 AM to 5 PM with 1 hour (12 AM to 1 PM) break.                 |
 | **Night Shift**  | Work is done Monday night through Saturday morning, 11 PM to 8 AM with an hour off (3 AM to 4AM) break. |
 | **24-hours**     | Work is done 24 hours a day each day.                                                                   |
-         
+
 As mentioned above, Standard calendar defines, that work is done Monday-Friday 8 AM - 5 PM with 1 hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
 
 You can edit any of the pre-defined calendars using **Calendar Properties** dialog or make your own calendars based on them using **Add Calendar** dialog.

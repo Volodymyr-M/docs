@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 layout: post
 toc: true
 title: Project

@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 layout: post
 toc: true
 title: Planning Costs
@@ -29,7 +28,7 @@ By filling in the **Cost** property in the **Resource Properties** dialog you ca
 - as a rate (like hourly rate of a contractor) for **work** resources
 - as a cost per unit (per piece, per ton, per box etc) for **material** resources
 - as a cost in total for **cost** resources
- 
+
 As **work** resources is the only type which has a calendar, the cost of this type of resource is specified per hour, per day, per week or per month. By default, a day is 8 hours, a week is 5 days (40 hours) and a month is 20 days. These defaults can be changed on the **Advanced** tab of **Project Properties** dialog.
 
 When a work resource is assigned to a task, you can specify **Units** value as a number different from the default 100%. This has impact on cost calculations, for example, if **Units** is 50% then the calculated cost for the resource in the task is half of what it would be with 100% Units.
@@ -48,4 +47,4 @@ If your project uses a different currency than the one that is default in Ingant
 
 On the same tab you can also specify the **Currency Position** (before or after the cost value, with or without a space in-between).
 
-> When you change currency, cost values are not recalculated. 
+> When you change currency, cost values are not recalculated.
