@@ -7,13 +7,14 @@ order: 3
 ---
 
 ## Resource Type
+
 Ingantt supports 3 types of resources:
 
-| Resource Type   | Description                                                                                          |
-|:----------------|:-----------------------------------------------------------------------------------------------------|
-| **Work**        | Someone or something doing your task. Can be a person, team, contractor company, or equipment.       |
-| **Material**    | Something which is used to do your task. Materials, ingridients, components.                         |
-| **Cost**        | Cost which can be applied to multiple of your tasks. Delivery cost, deployment cost, any fixed cost. |
+Resource Type | Description
+:------------ | :---------------------------------------------------------------------------------------------------
+**Work**      | Someone or something doing your task. Can be a person, team, contractor company, or equipment.
+**Material**  | Something which is used to do your task. Materials, ingridients, components.
+**Cost**      | Cost which can be applied to multiple of your tasks. Delivery cost, deployment cost, any fixed cost.
 
 Only work resources, when assigned to tasks, affect scheduling.
 
@@ -23,7 +24,7 @@ All types of resources affect cost calculations if **Cost** field is filled in f
 
 All types of resources, if you specify their cost, affect total cost of tasks to which they are assigned.
 
-For **work** resources cost is specified as a rate: hourly, daily, weekly or  monthly cost. Once such resource is assigned to a task, Ingantt uses the task's scheduling data to calculate the cost of the resource for this task and add it to the task's total cost.
+For **work** resources cost is specified as a rate: hourly, daily, weekly or monthly cost. Once such resource is assigned to a task, Ingantt uses the task's scheduling data to calculate the cost of the resource for this task and add it to the task's total cost.
 
 For **material** resources cost is specified per **Unit**. So that once the resource is assigned to a task, you can specify the number of Units used by the task and the total cost is calculated automatically. A Unit is somethings that you define for yourself: can be any measurement of material items (a ton, a box, a gallon etc), so you set the price per this Unit as resource's **Cost**.
 
@@ -48,4 +49,3 @@ It's possible to set dependencies between tasks and thus modify their position o
 You can resolve the overallocation manually by setting dependencies or constraints to move some of the tasks so that work is not done at the same time.
 
 An alternative way to resolve overallocation is autoleveling. If you choose to **Auto-level resources** in the main menu Ingantt automatically shifts some tasks further in the timeline to prevent overallocation of resources. You can clear these automatic adjustments by choosing **Clear leveling** in the main menu.
-

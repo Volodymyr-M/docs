@@ -5,6 +5,7 @@ title: Planning Costs
 icon: fas fa-sack-dollar
 order: 6
 ---
+
 Using individual tasks' fixed costs combined with the costs of resources assigned to the tasks, Ingantt calculates the total Cost of each task as shown in the **Cost** column in the list of tasks.
 
 > If you don't see the **Cost** column in the list of tasks, make sure the **Cost column** flag is checked on the **Task Columns** tab of **Options** dialog.
@@ -35,7 +36,7 @@ When a work resource is assigned to a task, you can specify **Units** value as a
 
 In **material** resources cost is specified per unit depending on how you define the meaning of the unit. It can be some weight measurement (like a pound, kilogram, ton etc), length or volume measurement (foot, meter, mile, gallon, liter etc) or any other measurement (container, box, piece, square foot etc).
 
-For example, if fuel is used in your project, you can add “fuel” material resource and specify the cost per gallon for it in **Resource Properties**. Then when assigning the resource to tasks in which the fuel is used you specify the number of gallons necessary for each task as **Units**, and Ingantt calculates the total cost of the fuel (as well as other costs) automatically for you.
+For example, if fuel is used in your project, you can add "fuel" material resource and specify the cost per gallon for it in **Resource Properties**. Then when assigning the resource to tasks in which the fuel is used you specify the number of gallons necessary for each task as **Units**, and Ingantt calculates the total cost of the fuel (as well as other costs) automatically for you.
 
 A **cost** resource is just another fixed expense that you might want to assign to multiple tasks. Unlike material resources, cost resources do not have Units when assigning, so use this type for fixed expenses which are not normally specified in any measurements, like installation cost. If you have multiple tasks with the same Fixed Cost caused by the same reason, create a cost resource and assign it to all these tasks, instead of filling in **Fixed Cost** field of each of them separately.
 

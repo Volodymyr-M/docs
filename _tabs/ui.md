@@ -12,8 +12,8 @@ On the **Android** version use a long press to select another item. Just hold yo
 
 On **Windows** and **Web** versions you can also use the following methods:
 
-- hold *Ctrl* while clicking items with your mouse to select more individual items
-- hold *Shift* to select groups of items in-between previously selected and the newly selected item.
+- hold _Ctrl_ while clicking items with your mouse to select more individual items
+- hold _Shift_ to select groups of items in-between previously selected and the newly selected item.
 
 This works in all lists (tasks, resources, calendars) and bars representing tasks in the Gantt chart.
 
@@ -39,29 +39,28 @@ All these views are fully functional, meaning that you can do every action avail
 
 > Not appicable for **Android** version.
 
-| Shortcut | Description                                                                                             |
-|:-----------------------|:--------------------------------------------------------------------------------------------------------|
-| **Ctrl + X**           | Cut (copy and delete) the currently selected items to the clipboard. |
-| **Ctrl + C**           | Copy the currently selected items to the clipboard. |
-| **Ctrl + V**           | Paste the items in the clipboard to the current view. If an item is selected in the view, items are pasted below the item. If no items selected, the items are pasted to the end of the list. |
-| **Ctrl + Z**           | Undo the last action. |
-| **Ctrl + Y**           | Redo the last action that was undone. |
-| **Ctrl + S**           | Save changes to a file. |
-| **A**                  | Add a new item. |
-| **Del**                | Delete the currently selected items. |
-| **Enter**              | Show **Properties** dialog for the currently selected item. If multiple items selected, the dialog is shown for the top item.  |
-| **Arrow Up**           | Select the previous item. |
-| **Arrow Down**         | Select the next item. |
-| **Ctrl + Arrow Up**    | Move selected tasks up. |
-| **Ctrl + Arrow Down**  | Move selected tasks down. |
-| **Ctrl + Arrow Left**  | Unindent selected tasks. |
-| **Ctrl + Arrow Right** | Indent selected tasks. |
-| **R**                  | Switch to **Resources** view. |
-| **C**                  | Switch to **Calendars** view. |
-| **T**                  | Switch to **Tasks** view. |
-| **P**                  | Show **Project Properties** dialog. |
-| **I**                  | Zoom In the Gantt chart. |
-| **O**                  | Zoom Out the Gantt chart. |
-| **L**                  | Link selected tasks. |
-| **U**                  | Unlink (break the link between) selected tasks. |
-
+Shortcut               | Description
+:--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Ctrl + X**           | Cut (copy and delete) the currently selected items to the clipboard.
+**Ctrl + C**           | Copy the currently selected items to the clipboard.
+**Ctrl + V**           | Paste the items in the clipboard to the current view. If an item is selected in the view, items are pasted below the item. If no items selected, the items are pasted to the end of the list.
+**Ctrl + Z**           | Undo the last action.
+**Ctrl + Y**           | Redo the last action that was undone.
+**Ctrl + S**           | Save changes to a file.
+**A**                  | Add a new item.
+**Del**                | Delete the currently selected items.
+**Enter**              | Show **Properties** dialog for the currently selected item. If multiple items selected, the dialog is shown for the top item.
+**Arrow Up**           | Select the previous item.
+**Arrow Down**         | Select the next item.
+**Ctrl + Arrow Up**    | Move selected tasks up.
+**Ctrl + Arrow Down**  | Move selected tasks down.
+**Ctrl + Arrow Left**  | Unindent selected tasks.
+**Ctrl + Arrow Right** | Indent selected tasks.
+**R**                  | Switch to **Resources** view.
+**C**                  | Switch to **Calendars** view.
+**T**                  | Switch to **Tasks** view.
+**P**                  | Show **Project Properties** dialog.
+**I**                  | Zoom In the Gantt chart.
+**O**                  | Zoom Out the Gantt chart.
+**L**                  | Link selected tasks.
+**U**                  | Unlink (break the link between) selected tasks.

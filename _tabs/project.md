@@ -46,7 +46,7 @@ When you change currency, cost values are not recalculated.
 
 In Ingantt you can specify Duration, Work or Lag in Hours, Days, Weeks and Months.
 
-For example, you can set your task's duration to 2 Days and using default settings, Ingantt knows that these 2 “Days” are actually equal to 16 hours.
+For example, you can set your task's duration to 2 Days and using default settings, Ingantt knows that these 2 "Days" are actually equal to 16 hours.
 
 By default, 1 Day is equal to 8 hours, 1 Week is equal to 5 days (40 hours), 1 Month is equal to 20 days (160 hours).
 
