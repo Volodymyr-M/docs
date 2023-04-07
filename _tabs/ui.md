@@ -34,7 +34,7 @@ There are multiple ways to see tasks in Ingantt. The following task views are av
 - **Gantt Chart Only**
 - **List Only**
 
-All these views are fully functional, meaning that you can do every action available for tasks in any view, even when you use **Gantt Chart Only** view. Just use the ability to [select multiple items](#selectUI) anywhere: in the task list or the Gantt chart, as well as the ability to open **Task Properties** by double tapping/clicking (in the list and the chart).
+All these views are fully functional, meaning that you can do every action available for tasks in any view, even when you use **Gantt Chart Only** view. Just use the ability to [select multiple items](#select-multiple-items) anywhere: in the task list or the Gantt chart, as well as the ability to open **Task Properties** by double tapping/clicking (in the list and the chart).
 
 ## Keyboard shortcuts
 
