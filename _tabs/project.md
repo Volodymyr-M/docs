@@ -3,7 +3,7 @@
 layout: post
 toc: true
 title: Project
-icon: fas fa-info-circle
+icon: fas fa-briefcase
 order: 5
 ---
 

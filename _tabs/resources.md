@@ -3,28 +3,9 @@
 layout: post
 toc: true
 title: Resources
-icon: fas fa-info-circle
+icon: fas fa-user
 order: 3
 ---
-
-
-## Overallocated resources
-
-A work resource can be **overallocated**, which means that it has more work assigned than it can do based on its calendar data. For example, if your project has only 2 tasks with a duration of 1 day with no dependency between them both assigned to the same work resource, the resource is overallocated: in that one calendar day the resource has to do 2 days of work! To resolve this, in this example simply linking the tasks fixes the issue.
-
-If a task has overallocated resources assigned, Ingantt shows a special icon for it in the list of tasks.
-
-If a resource is overallocated, Ingantt shows a special icon for it in the list of resources.
-
-Also, Ingantt counts such tasks and resources and shows the numbers in the navigation drawer.
-
-## Autoleveling
-
-It's possible to set dependencies between tasks and thus modify their position on the timeline. In projects with many resources and tasks it's easy to miss setting a dependency, so that your schedule can contain 2 or more tasks assigned to the same work resource but which (because of the lack of dependency) are scheduled to be done at the same time. This means that the resource has to do more work than it can do in that time: it is overallocated and you are notified about that by Ingantt using special icons in tasks and resources lists.
-
-You can resolve the overallocation manually by setting dependencies or constraints to move some of the tasks so that work is not done at the same time.
-
-An alternative way to resolve overallocation is autoleveling. If you choose to **Auto-level resources** in the main menu Ingantt automatically shifts some tasks further in the timeline to prevent overallocation of resources. You can clear these automatic adjustments by choosing **Clear leveling** in the main menu.
 
 ## Resource Type
 Ingantt supports 3 types of resources:
@@ -49,4 +30,23 @@ For **material** resources cost is specified per **Unit**. So that once the reso
 
 For **cost** resources you specify the total cost of the resource. Units are not applicable in this case, you just specify the **Cost** as a fixed price which is added to a task's cost once the resource is assigned to the task.
 
-For more information on costs, see <a href="planning-costs.html">Planning costs</a>.
+For more information on costs, see [Planning costs](../planning-costs/).
+
+## Overallocated resources
+
+A work resource can be **overallocated**, which means that it has more work assigned than it can do based on its calendar data. For example, if your project has only 2 tasks with a duration of 1 day with no dependency between them both assigned to the same work resource, the resource is overallocated: in that one calendar day the resource has to do 2 days of work! To resolve this, in this example simply linking the tasks fixes the issue.
+
+If a task has overallocated resources assigned, Ingantt shows a special icon for it in the list of tasks.
+
+If a resource is overallocated, Ingantt shows a special icon for it in the list of resources.
+
+Also, Ingantt counts such tasks and resources and shows the numbers in the navigation drawer.
+
+## Autoleveling
+
+It's possible to set dependencies between tasks and thus modify their position on the timeline. In projects with many resources and tasks it's easy to miss setting a dependency, so that your schedule can contain 2 or more tasks assigned to the same work resource but which (because of the lack of dependency) are scheduled to be done at the same time. This means that the resource has to do more work than it can do in that time: it is overallocated and you are notified about that by Ingantt using special icons in tasks and resources lists.
+
+You can resolve the overallocation manually by setting dependencies or constraints to move some of the tasks so that work is not done at the same time.
+
+An alternative way to resolve overallocation is autoleveling. If you choose to **Auto-level resources** in the main menu Ingantt automatically shifts some tasks further in the timeline to prevent overallocation of resources. You can clear these automatic adjustments by choosing **Clear leveling** in the main menu.
+

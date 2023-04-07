@@ -3,7 +3,7 @@
 layout: post
 toc: true
 title: Planning Costs
-icon: fas fa-info-circle
+icon: fas fa-sack-dollar
 order: 6
 ---
 Using individual tasks' fixed costs combined with the costs of resources assigned to the tasks, Ingantt calculates the total Cost of each task as shown in the **Cost** column in the list of tasks.

@@ -3,7 +3,7 @@
 layout: post
 toc: true
 title: Tasks
-icon: fas fa-info-circle
+icon: fas fa-circle-check
 order: 2
 ---
 
@@ -41,7 +41,7 @@ If at least one subtask of a summary task has **Is Estimate** checked, the summa
 
 Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on **Advanced** tab of **Project Properties** dialog.
 
-When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#task-types).
+When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-is-effort-driven).
 
 ## Work
 
@@ -51,7 +51,7 @@ Work can be changed using **Work** field in **Task Properties** dialog.
 
 Just like Duration, Work can be specified in Hours, Days, Weeks or Months using definitions of these on **Advanced** tab of **Project Properties** dialog. However, Work is always displayed in Hours.
 
-When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#task-types).
+When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-is-effort-driven).
 
 ## Deadline
 
@@ -89,7 +89,7 @@ If there's a cost specifically assotiated with your particular task, you can set
 
 Task's total cost (shown in **Cost** column of the task list) is calculated as a total of Fixed Cost and costs of assigned resources based on their costs/rates.
 
-For more information on costs, see [Planning costs](planning-costs.html).
+For more information on costs, see [Planning costs](../planning-costs/).
 
 ## % Complete
 
@@ -110,9 +110,17 @@ There are 2 constraints which force the task to start or finish at the date spec
 
 Other constraints (**Start/Finish no earlier/later than**) are called *flexible*, as they respect task dependencies and if such dependencies cause the task to start/finish at a different date then the task starts/finishes at the different date.
 
-##### Task Constraints:
+| Constraint                | Description                                                                                                                                                |
+|:--------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **As soon as possible**   | Task is scheduled as soon as the predecessors allow. So, if no predecessors linked, the task starts at the beginning of the parent's summary task.         |
+| **As late as possible**   | Task is scheduled as late as the predecessors allow. So, if no predecessors linked, the task finishes at the end of the parent's summary task.             |
+| **Start no earlier than** | If the task starts later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date.     |
+| **Start no later than**   | If the task starts earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date.   |
+| **Finish no earlier than**| If the task finishes later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.  |
+| **Finish no later than**  | If the task finishes earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.|
+| **Must start on**         | Task's start date is scheduled to be exactly as specified, regardless of predecessors.                                                                     |
+| **Must finish on**        | Task's finish date is scheduled to be exactly as specified, regardless of predecessors.                                                                    |
 
-As soon as possibleTask is scheduled as soon as the predecessors allow. So, if no predecessors linked, the task starts at the beginning of the parent's summary task.As late as possibleTask is scheduled as late as the predecessors allow. So, if no predecessors linked, the task finishes at the end of the parent's summary task.Start no earlier thanIf the task starts later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date. Start no later thanIf the task starts earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date. Finish no earlier thanIf the task finishes later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.Finish no later thanIf the task finishes earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.Must start onTask's start date is scheduled to be exactly as specified, regardless of predecessors.Must finish onTask's finish date is scheduled to be exactly as specified, regardless of predecessors. 
 
 If a flexible or inflexible constraint is applied for a task, a special icon is shown for the task in the list of tasks.
 
@@ -125,24 +133,21 @@ Work resource assignments (or, rather units of assigned work resources), work an
 
 For example, you can set the **Type** to **Fixed units** (like it is by default), in which case when you change Duration Work is automatically recalculated.
 
-##### Task Types:
-
-Fixed units- When you change Duration: Work is recalculated.
-- When you change Work: Duration is recalculated.
-- When you change Units: 
-    - If **Is Effort Driven** is set: Duration is recalculated
-    - If **Is Effort Driven** is not set: Work is recalculated
-
-Fixed duration- When you change Duration: Work is recalculated.
-- When you change Work: Units is recalculated.
-- When you change Units: 
-    - If **Is Effort Driven** is set: Units is recalculated
-    - If **Is Effort Driven** is not set: Work is recalculated
-
-Fixed work- When you change Duration: Units is recalculated.
-- When you change Work: Duration is recalculated.
-- When you change Units: Duration is recalculated
-
+| Type                | Description                                                |
+|:--------------------|:-----------------------------------------------------------|
+| **Fixed units**     | When you change Duration: Work is recalculated.            |
+|                     | When you change Work: Duration is recalculated.            |
+|                     | When you change Units:                                     |
+|                     | - If **Is Effort Driven** is set: Duration is recalculated |
+|                     | - If **Is Effort Driven** is not set: Work is recalculated |
+| **Fixed duration**  | When you change Duration: Work is recalculated.            |
+|                     | When you change Work: Units is recalculated.               |
+|                     | When you change Units:                                     |
+|                     | - If **Is Effort Driven** is set: Units is recalculated    |
+|                     | - If **Is Effort Driven** is not set: Work is recalculated |
+| **Fixed work**      | When you change Duration: Units is recalculated.           |
+|                     | When you change Work: Duration is recalculated.            |
+|                     | When you change Units: Duration is recalculated            |
 
 In other words, thanks to **Type** you can freeze one of the 3 properties, while **Is Effort Driven** defines whether Work should stay unchanged among the remaining two.
 
@@ -176,7 +181,7 @@ To assign predecessors and edit dependencies, use **Predecessors** tab in **Task
 
 Sometimes you might need to set some waiting time between 2 dependent tasks.
 
-Let's say that your first task is "Paint the wall" and your second task is "Hang pictures on the wall", these tasks are linked (have **Finish to Start** dependency). It's not possible to hang pictures until the paint is dry, so you need to wait. To reflect this in your schedule, set the **Lag**(for example, 1 day) for the dependency between the two tasks.
+Let's say that your first task is "Paint the wall" and your second task is "Hang pictures on the wall", these tasks are linked (have **Finish to Start** dependency). It's not possible to hang pictures until the paint is dry, so you need to wait. To reflect this in your schedule, set the **Lag** (for example, 1 day) for the dependency between the two tasks.
 
 Lags can also be used in a situation directly opposite to waiting, when the depending task should start a little bit earlier. To set this, make the **Lag** negative (for example, -1 day). This is called *lead time*.
 

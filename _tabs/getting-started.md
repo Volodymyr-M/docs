@@ -3,7 +3,7 @@
 layout: post
 toc: true
 title: Getting Started
-icon: fas fa-info-circle
+icon: fas fa-bars-progress
 order: 1
 ---
 
@@ -128,4 +128,3 @@ If your project is saved at least once and **Enable autosave** is checked	in **O
 > Web version does not autosave to local files due to specifics of the platform.
 
 Your project is always saved in a format that is fully compatible with Microsoft Project.
-			
