@@ -39,7 +39,7 @@ Ingantt is available on Windows, Android and the Web.
 ## Installation
 Ingantt is multi-platform, so install the version that is right for you device.
 						
-- **Web:** Just open this <a href="/web/">link</a>
+- **Web:** Just open this <a href="https://ingantt.com/web/">link</a>
 - **Windows:** <!--Get it at <a href="#">Microsoft Store</a> -->	Coming soon
 - **Android:**				<!-- Get it at <a href="#">Google Store</a>-->Coming soon
 
