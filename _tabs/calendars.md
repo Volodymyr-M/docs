@@ -7,8 +7,6 @@ icon: fas fa-calendar
 order: 4
 ---
 
-## Calendars
-
 Calendars define days/time when work can be done. This definition is done through 2 types of calendar data:
 
 - **Weekdays**. Work time is set for each day of a week: Sunday, Monday, Tuesday etc. This defines typical, routine calendar for work.
