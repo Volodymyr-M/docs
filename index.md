@@ -2,7 +2,6 @@
 layout: home
 toc: false
 title: Ingantt Docs
-
 ---
 
 ## Welcome to Ingantt!
@@ -10,6 +9,7 @@ title: Ingantt Docs
 Ingantt is a project management multi-platform app allowing to create project plans, schedules, timelines, roadmaps.
 
 ### What you can do with Ingantt
+
 - plan and estimate your project by splitting the project into a number of tasks and setting dependencies between them
 - review you plan using Gantt chart
 - manage project resources (work, material or cost) and assign them to tasks
@@ -22,11 +22,10 @@ Ingantt is a project management multi-platform app allowing to create project pl
 - auto-level overallocated resources
 - mark tasks as milestones
 - set task deadlines and be notified if the task is scheduled to finish later
-					
+
 ### Compatibility
 
-Ingantt is a user-friendly alternative to Microsoft Project, if you're familiar with Microsoft Project, you can quickly get started with Ingantt.
-Ingantt can open files saved by Microsoft Project in XML format. Files saved by	Ingantt also use the same XML format, so they can be opened by Microsoft Project or software compatible with it.
+Ingantt is a user-friendly alternative to Microsoft Project, if you're familiar with Microsoft Project, you can quickly get started with Ingantt. Ingantt can open files saved by Microsoft Project in XML format. Files saved by Ingantt also use the same XML format, so they can be opened by Microsoft Project or software compatible with it.
 
 ### Cloud support
 
