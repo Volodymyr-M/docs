@@ -21,7 +21,7 @@ Ingantt is multi-platform, so install the version that is right for you device.
 
 Once installed, you can start working with Ingantt right away by creating, opening and saving local files on your device. If you would like to have your files in the cloud, you can **Sign in to Google**. This gives you the ability to save and open your schedules from your **Google Drive** storage.
 
-> When signin in, Ingantt requires permission to only be able to edit the files that it creates. No other files are read or written, and the permission for them is not requested.
+> When signing in, Ingantt requires permission to only be able to edit the files that it creates. No other files are read or written, and the permission for them is not requested.
 {: .prompt-info }
 
 ## Creating basic schedule

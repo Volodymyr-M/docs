@@ -13,7 +13,7 @@ Ingantt supports 3 types of resources:
 Resource Type | Description
 :------------ | :---------------------------------------------------------------------------------------------------
 **Work**      | Someone or something doing your task. Can be a person, team, contractor company, or equipment.
-**Material**  | Something which is used to do your task. Materials, ingridients, components.
+**Material**  | Something which is used to do your task. Materials, ingredients, components.
 **Cost**      | Cost which can be applied to multiple of your tasks. Delivery cost, deployment cost, any fixed cost.
 
 Only work resources, when assigned to tasks, affect scheduling.

@@ -13,11 +13,11 @@ Calendars define days/time when work can be done. This definition is done throug
 
 ## Project Calendar
 
-Project has a **Calendar** assotiated with it as specified in **Project Properties** dialog. This calendar defines how tasks not assigned to work resources or their own calendars are scheduled. Also, days off like weekends are shown in the Gantt chart according to this calendar.
+Project has a **Calendar** associated with it as specified in **Project Properties** dialog. This calendar defines how tasks not assigned to work resources or their own calendars are scheduled. Also, days off like weekends are shown in the Gantt chart according to this calendar.
 
 ## Resource Calendar
 
-Each work resource has a calendar assotiated with it as specified in **Base Calendar** field of **Resource Properties** dialog. Once the work resource is assigned to a task, its calendar affects scheduling of the task.
+Each work resource has a calendar associated with it as specified in **Base Calendar** field of **Resource Properties** dialog. Once the work resource is assigned to a task, its calendar affects scheduling of the task.
 
 > If you have multiple resources working according to a similar work schedule, you can create a Calendar and assign it to them. At the same time, you can specify Exceptions for each of them separately in **Resource Properties** if they have personal events like vacations or shorter/longer work periods on some dates.
 {: .prompt-tip }

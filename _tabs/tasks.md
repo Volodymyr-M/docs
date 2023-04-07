@@ -56,7 +56,7 @@ When you change resource assignments, work or duration, one of these is recalcul
 
 Sometimes you need to keep in mind that a task should be complete by a particular day typically called a deadine.
 
-Deadline of a task can be specifed using **Deadline** field in **Task Properties** dialog.
+Deadline of a task can be specified using **Deadline** field in **Task Properties** dialog.
 
 Deadlines are for your own reference only, they do not affect scheduling.
 
@@ -84,7 +84,7 @@ Ingantt allows to detect critical tasks automatically. If in the **Options** dia
 
 ## Fixed Cost
 
-If there's a cost specifically assotiated with your particular task, you can set it in **Fixed Cost** property available in **Task Properties** dialog.
+If there's a cost specifically associated with your particular task, you can set it in **Fixed Cost** property available in **Task Properties** dialog.
 
 Task's total cost (shown in **Cost** column of the task list) is calculated as a total of Fixed Cost and costs of assigned resources based on their costs/rates.
 
@@ -127,7 +127,7 @@ If a flexible or inflexible constraint is applied for a task, a special icon is 
 
 ## Type and Is Effort Driven
 
-Work resource assignments (or, rather units of assigned work resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task's **Type** (with the help of **Is Effort Driven** flag) defines, which of the remaining 2 properties shoud stay unchanged, so that only one of them would be recalculated.
+Work resource assignments (or, rather units of assigned work resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task's **Type** (with the help of **Is Effort Driven** flag) defines, which of the remaining 2 properties should stay unchanged, so that only one of them would be recalculated.
 
 For example, you can set the **Type** to **Fixed units** (like it is by default), in which case when you change Duration Work is automatically recalculated.
 
@@ -168,10 +168,14 @@ By default, work resources are assigned with 100% units. This means that they wi
 By default, material resources are assigned with 1 unit. This means that 1 unit (box, gallon, ton etc depending on how you define it for the material) of that material will be spent when implementing the task. You can change the default value and set any number of units.
 
 ## Predecessors and Dependencies
-
 When you link tasks using **Link selected tasks** toolbar button, you create a dependency between the tasks. The dependency is called **Finish to Start** and it is one of 4 dependencies available:
 
-Finish to Startthe second task starts at the same time as the first task finishesFinish to Finishthe second task finishes at the same time as the first task finishesStart to Finishthe second task finishes at the same time as the first task startsStart to Startthe second task starts at the same time as the first task starts
+Type                 | Description
+:------------------- | :-------------------------------------------------------------------
+**Finish to Start**  | the second task starts at the same time as the first task finishes
+**Finish to Finish** | the second task finishes at the same time as the first task finishes
+**Start to Finish**  | the second task finishes at the same time as the first task starts
+**Start to Start**   | the second task starts at the same time as the first task starts
 
 To assign predecessors and edit dependencies, use **Predecessors** tab in **Task Properties** dialog.
 
@@ -183,7 +187,7 @@ Let's say that your first task is "Paint the wall" and your second task is "Hang
 
 Lags can also be used in a situation directly opposite to waiting, when the depending task should start a little bit earlier. To set this, make the **Lag** negative (for example, -1 day). This is called _lead time_.
 
-To set lag or lead time, use **Edit** button in **Predecessors** tab in **Task Properties** dialog to set such time between the task that is being edited and its precessor in the list.
+To set lag or lead time, use **Edit** button in **Predecessors** tab in **Task Properties** dialog to set such time between the task that is being edited and its predecessor in the list.
 
 > Note that lags can be set in hours, days, weeks, months or as a fraction of the predecessors task's duration (for example, 50%).
 {: .prompt-info }
