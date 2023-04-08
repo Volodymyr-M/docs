@@ -22,9 +22,9 @@ All types of resources affect cost calculations if **Cost** field is filled in f
 
 ## Resource Cost
 
-All types of resources, if you specify their cost, affect total cost of tasks to which they are assigned.
+All types of resources, if you specify their cost, affect the total cost of tasks to which they are assigned.
 
-For **work** resources cost is specified as a rate: hourly, daily, weekly or monthly cost. Once such resource is assigned to a task, Ingantt uses the task's scheduling data to calculate the cost of the resource for this task and add it to the task's total cost.
+For **work** resources cost is specified as a rate: hourly, daily, weekly or monthly cost. Once such a resource is assigned to a task, Ingantt uses the task's scheduling data to calculate the cost of the resource for this task and add it to the task's total cost.
 
 For **material** resources cost is specified per **Unit**. So that once the resource is assigned to a task, you can specify the number of Units used by the task and the total cost is calculated automatically. A Unit is somethings that you define for yourself: can be any measurement of material items (a ton, a box, a gallon etc), so you set the price per this Unit as resource's **Cost**.
 

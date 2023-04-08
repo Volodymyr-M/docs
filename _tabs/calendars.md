@@ -26,7 +26,7 @@ Each work resource has a calendar associated with it as specified in **Base Cale
 
 Task has **Calendar** property in **Task Properties** dialog. It is set to **NONE** by default, in this case:
 
-- If a task is not assigned to any work resources, the task is scheduled according to project's calendar.
+- If a task is not assigned to any work resources, the task is scheduled according to the project's calendar.
 - If a task is assigned to work resources, the task is scheduled according to their calendars.
 
 If task's **Calendar** property is set to a calendar instead of **NONE**:
@@ -44,7 +44,7 @@ Default Calendar | Description
 **Night Shift**  | Work is done Monday night through Saturday morning, 11 PM to 8 AM with an hour off (3 AM to 4AM) break.
 **24-hours**     | Work is done 24 hours a day each day.
 
-As mentioned above, Standard calendar defines, that work is done Monday-Friday 8 AM - 5 PM with 1 hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
+As mentioned above, the Standard calendar defines that work is done Monday-Friday 8 AM - 5 PM with 1 hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
 
 You can edit any of the pre-defined calendars using **Calendar Properties** dialog or make your own calendars based on them using **Add Calendar** dialog.
 
@@ -59,7 +59,7 @@ Calendar Exceptions can be specified:
 
 For example, if you would like to configure a vacation for a person, add it as an exception for this resource. If you would like to configure a holiday for everyone, add it as an exception to a calendar which everyone uses.
 
-When adding or editing calendar exception you specify working time periods for the exception. If you don't specify any, you make the Exception having no working time, which means that the exception defines a day off.
+When adding or editing calendar exceptions you specify working time periods for the exception. If you don't specify any, you make the Exception having no working time, which means that the exception defines a day off.
 
 ## Empty and partial calendars
 

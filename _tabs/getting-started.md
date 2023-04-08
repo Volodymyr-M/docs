@@ -30,7 +30,7 @@ Let's say you have a small home renovation project of 2 tasks, one is done after
 
 Once you click on **Create new** project button, you're brought to a split screen containing your future list of tasks on the left and your Gantt chart on the right. Add your tasks one after another by clicking on the big **+** button in the bottom right and specifying **Name** and predicted **Duration** of each of them in **Add Task** dialog. Select both of your tasks in the list on the left and then click **Link selected tasks** toolbar button. This makes the tasks connected and the Gantt chart is updated.
 
-- To select multiple tasks on Android hold your finger a little longer while tapping each task either in the list or in the Gantt chart.
+- To select multiple tasks on Android, hold your finger a little longer while tapping each task either in the list or in the Gantt chart.
 - On other systems click on tasks in the list or in the Gantt chart while holding _Ctrl_ or _Shift_.
 
 Now that the tasks are linked if you decide to update the duration of the first task (by double clicking it in the list or the Gantt chart and editing **Duration** field in **Task Properties** dialog), you can see how this change affects the schedule shifting the second task.
@@ -68,20 +68,20 @@ Double click on the resource so see **Resource Properties**. Go to **Calendar** 
 
 Using the navigation menu go back to **Tasks** and see how your schedule has changed and the task following the resource's task has also shifted due to its dependency on it.
 
-> Similarly you can configure not only vacations, but also other changes to a person's schedule. For example, by adding working time to the Exception you can tell Ingantt that on that particular day the resource works only during specified hours.
+> Similarly you can configure not only vacations, but also other changes to a person's schedule. For example, by adding working time to the Exception you can tell Ingantt that on that particular day the resource works only during specific hours.
 {: .prompt-info }
 
 ## Setting holidays
 
 Let's say that there's a holiday during the course of your project, a day during which no work is done.
 
-While vacations are configured through each resource's calendar, days affecting everyone are configured in project's calendar. The default project's calendar is called **Standard** and it already contains information that no work is done on weekends.
+While vacations are configured through each resource's calendar, days affecting everyone are configured in the project's calendar. The default project's calendar is called **Standard** and it already contains information that no work is done on weekends.
 
 To configure holidays, use navigation menu to go to **Calendars** view. Double click on **Standard** so see **Calendar Properties**. Click **Add exception** button. Choose one of the days during the course of your project, leave the list of working times empty and save.
 
 Using the navigation menu go back to **Tasks** view and see how your project has changed and the tasks are shifted. In the Gantt chart your holiday is shown similarly to weekends.
 
-> Using the same approach you can configure not only holidays, but also other changes to everyone's schedule. For example, by adding working time to the Exception you can tell Ingantt that on that particular day everyone works only during specified hours. You can also take a look at tabs representing each weekday in **Calendar Properties**. If your whole team, for example, leaves earlier on Fridays or works on Saturdays, you can configure this on the corresponding tabs.
+> Using the same approach you can configure not only holidays, but also other changes to everyone's schedule. For example, by adding working time to the Exception you can tell Ingantt that on that particular day everyone works only during specific hours. You can also take a look at tabs representing each weekday in **Calendar Properties**. If your whole team, for example, leaves earlier on Fridays or works on Saturdays, you can configure this on the corresponding tabs.
 {: .prompt-info }
 
 ## Saving your schedule

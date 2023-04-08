@@ -29,7 +29,7 @@ Ingantt is a user-friendly alternative to Microsoft Project, if you're familiar 
 
 ## Cloud support
 
-Ingantt can can create, open and save local files on your device. If you choose, you can sign in to your Google account to be able to open and save files on your Google Drive.
+Ingantt can create, open and save local files on your device. If you choose, you can sign in to your Google account to be able to open and save files on your Google Drive.
 
 ## Platform support
 

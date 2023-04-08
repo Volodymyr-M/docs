@@ -14,7 +14,7 @@ By filling in the **Name** field in the **Project Properties**dialog's **General
 
 By default, your project is set to be planned from the Start date and you can set it in the **Project Start Date** field of the **Project Properties** dialog.
 
-But in some (rather rare) cases it is convenient to plan your project knowing its Finish date first. For such cases Ingantt supports planning from Finish date. To do so, just switch to **Plan from Finish date** in the **Project Properties** dialog and edit the **Project Finish date**.
+But in some (rather rare) cases it is convenient to plan your project knowing its Finish date first. For such cases Ingantt supports planning from the Finish date. To do so, just switch to **Plan from Finish date** in the **Project Properties** dialog and edit the **Project Finish date**.
 
 There are some things to keep in mind:
 

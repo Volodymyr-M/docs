@@ -12,7 +12,7 @@ Summary tasks allow you to group your tasks. To create a summary task, you simpl
 
 As summary tasks group other tasks, they are not tasks on themselves, so their durations show the overall duration of the tasks within the group. The end date of a summary task is the latest end date among end dates of subtasks.
 
-Similarly, a summary tasks show the overall % complete of its subtasks, the total cost of its subtasks, the total work of its subtasks.
+Similarly, a summary task shows the overall % complete of its subtasks, the total cost of its subtasks, the total work of its subtasks.
 
 In the Gantt chart summary tasks are shown as black bars. In the list of tasks they can be **expanded** or **collapsed** to show or hide the list of their subtasks.
 
@@ -54,7 +54,7 @@ When you change resource assignments, work or duration, one of these is recalcul
 
 ## Deadline
 
-Sometimes you need to keep in mind that a task should be complete by a particular day typically called a deadine.
+Sometimes you need to keep in mind that a task should be completed by a particular day typically called a deadline.
 
 Deadline of a task can be specified using **Deadline** field in **Task Properties** dialog.
 
@@ -80,7 +80,7 @@ Once your plan is put into action, reality happens. Some tasks finish earlier th
 
 On the other hand, there are other tasks, and when they are done longer, the entire project's end date is shifted. They don't have room to grow at all, their slack is zero. Such tasks which cannot be delayed without delaying the entire project are called _critical tasks_. If you expect your project to finish in time it is important to pay special attention to critical tasks when tracking your project's progress.
 
-Ingantt allows to detect critical tasks automatically. If in the **Options** dialog **Highlight critical tasks in the Gantt chart** is checked, such tasks are displayed in red.
+Ingantt allows detecting critical tasks automatically. If in the **Options** dialog **Highlight critical tasks in the Gantt chart** is checked, such tasks are displayed in red.
 
 ## Fixed Cost
 
@@ -111,8 +111,8 @@ Other constraints (**Start/Finish no earlier/later than**) are called _flexible_
 
 Constraint                 | Description
 :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------
-**As soon as possible**    | Task is scheduled as soon as the predecessors allow. So, if no predecessors linked, the task starts at the beginning of the parent's summary task.
-**As late as possible**    | Task is scheduled as late as the predecessors allow. So, if no predecessors linked, the task finishes at the end of the parent's summary task.
+**As soon as possible**    | Task is scheduled as soon as the predecessors allow. So, if no predecessors are linked, the task starts at the beginning of the parent's summary task.
+**As late as possible**    | Task is scheduled as late as the predecessors allow. So, if no predecessors are linked, the task finishes at the end of the parent's summary task.
 **Start no earlier than**  | If the task starts later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date.
 **Start no later than**    | If the task starts earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date.
 **Finish no earlier than** | If the task finishes later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.
@@ -139,11 +139,11 @@ Type               | Description
                    | - If **Is Effort Driven** is set: Duration is recalculated
                    | - If **Is Effort Driven** is not set: Work is recalculated
 **Fixed duration** | When you change Duration: Work is recalculated.
-                   | When you change Work: Units is recalculated.
+                   | When you change Work: Units are recalculated.
                    | When you change Units:
-                   | - If **Is Effort Driven** is set: Units is recalculated
+                   | - If **Is Effort Driven** is set: Units are recalculated
                    | - If **Is Effort Driven** is not set: Work is recalculated
-**Fixed work**     | When you change Duration: Units is recalculated.
+**Fixed work**     | When you change Duration: Units are recalculated.
                    | When you change Work: Duration is recalculated.
                    | When you change Units: Duration is recalculated
 
@@ -189,7 +189,7 @@ Lags can also be used in a situation directly opposite to waiting, when the depe
 
 To set lag or lead time, use **Edit** button in **Predecessors** tab in **Task Properties** dialog to set such time between the task that is being edited and its predecessor in the list.
 
-> Note that lags can be set in hours, days, weeks, months or as a fraction of the predecessors task's duration (for example, 50%).
+> Note that lags can be set in hours, days, weeks, months or as a fraction of the predecessor task's duration (for example, 50%).
 {: .prompt-info }
 
 ## Circular dependencies

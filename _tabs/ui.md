@@ -43,13 +43,13 @@ Shortcut               | Description
 :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Ctrl + X**           | Cut (copy and delete) the currently selected items to the clipboard.
 **Ctrl + C**           | Copy the currently selected items to the clipboard.
-**Ctrl + V**           | Paste the items in the clipboard to the current view. If an item is selected in the view, items are pasted below the item. If no items selected, the items are pasted to the end of the list.
+**Ctrl + V**           | Paste the items in the clipboard to the current view. If an item is selected in the view, items are pasted below the item. If no items are selected, the items are pasted to the end of the list.
 **Ctrl + Z**           | Undo the last action.
 **Ctrl + Y**           | Redo the last action that was undone.
 **Ctrl + S**           | Save changes to a file.
 **A**                  | Add a new item.
 **Del**                | Delete the currently selected items.
-**Enter**              | Show **Properties** dialog for the currently selected item. If multiple items selected, the dialog is shown for the top item.
+**Enter**              | Show **Properties** dialog for the currently selected item. If multiple items are selected, the dialog is shown for the top item.
 **Arrow Up**           | Select the previous item.
 **Arrow Down**         | Select the next item.
 **Ctrl + Arrow Up**    | Move selected tasks up.
