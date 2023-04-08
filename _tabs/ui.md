@@ -37,7 +37,7 @@ All these views are fully functional, meaning that you can do every action avail
 
 ## Keyboard shortcuts
 
-> Not appicable for **Android** version.
+> Not applicable for **Android** version.
 
 Shortcut               | Description
 :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

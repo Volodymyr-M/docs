@@ -14,7 +14,7 @@ Ingantt is multi-platform, so install the version that is right for you device.
 - **Windows:** Coming soon
 - **Android:** Coming soon
 
-> Ingantt is currently in **Open Beta** status. This means that you can get the app for free, yet some bugs are possible. We would like to hear your feedback! Please contact us using the email specified in the bottom left corner of the page.
+> We would like to hear your feedback! Please contact us using the email specified in the bottom left corner of the page.
 {: .prompt-info }
 
 ## Logging in (optional)

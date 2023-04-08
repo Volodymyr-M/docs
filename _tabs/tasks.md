@@ -34,9 +34,9 @@ Don't confuse **Duration** with **Work**. You can have, for example, 3 people wo
 
 Duration can be changed using **Duration** field in **Task Properties** dialog.
 
-When you're not yet confident with your estimate for the Duration, you can mark the Duration as **Is Estimate** in **Task Properties** dialog, in which case the Duration is always displayed with a question mark "**?**". Checking or unchecking this flag does not affect scheduling.
+When you're not yet confident with your estimate for the Duration, you can mark the Duration as **Estimate** ("**?**") in **Task Properties** dialog, in which case the Duration is always displayed with a question mark "**?**". Checking or unchecking this flag does not affect scheduling.
 
-If at least one subtask of a summary task has **Is Estimate** checked, the summary task's duration is also marked as **Is Estimate** and thus also shows "**?**".
+If at least one subtask of a summary task has **Estimate** checked, the summary task's duration is also marked as **Estimate** and thus also shows "**?**".
 
 Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on **Advanced** tab of **Project Properties** dialog.
 
@@ -70,9 +70,9 @@ Deadlines are shown in the Gantt chart as special icons.
 
 ## Milestone
 
-Any task can be marked as a milestone by checking **Is Milestone** checkbox in **Task Properties** dialog. This doesn't change its duration, doesn't affect scheduling, but the task is shown in the Gantt chart as an icon.
+Any task can be marked as a milestone by checking **Milestone** checkbox in **Task Properties** dialog. This doesn't change its duration, doesn't affect scheduling, but the task is shown in the Gantt chart as an icon.
 
-If you specify 0 as the **Duration** of a task, the task is marked as **Is Milestone** automatically once you save the change.
+If you specify 0 as the **Duration** of a task, the task is marked as **Milestone** automatically once you save the change.
 
 ## Critical Tasks
 
@@ -125,9 +125,9 @@ If a flexible or inflexible constraint is applied for a task, a special icon is 
 > Use default constraints for most tasks, use flexible constraints for tasks where Start or Finish depends on a particular date.
 {: .prompt-tip }
 
-## Type and Is Effort Driven
+## Type and Effort Driven
 
-Work resource assignments (or, rather units of assigned work resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task's **Type** (with the help of **Is Effort Driven** flag) defines, which of the remaining 2 properties should stay unchanged, so that only one of them would be recalculated.
+Work resource assignments (or, rather units of assigned work resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task's **Type** (with the help of **Effort Driven** flag) defines, which of the remaining 2 properties should stay unchanged, so that only one of them would be recalculated.
 
 For example, you can set the **Type** to **Fixed units** (like it is by default), in which case when you change Duration Work is automatically recalculated.
 
@@ -136,18 +136,18 @@ Type               | Description
 **Fixed units**    | When you change Duration: Work is recalculated.
                    | When you change Work: Duration is recalculated.
                    | When you change Units:
-                   | - If **Is Effort Driven** is set: Duration is recalculated
-                   | - If **Is Effort Driven** is not set: Work is recalculated
+                   | - If **Effort Driven** is set: Duration is recalculated
+                   | - If **Effort Driven** is not set: Work is recalculated
 **Fixed duration** | When you change Duration: Work is recalculated.
                    | When you change Work: Units are recalculated.
                    | When you change Units:
-                   | - If **Is Effort Driven** is set: Units are recalculated
-                   | - If **Is Effort Driven** is not set: Work is recalculated
+                   | - If **Effort Driven** is set: Units are recalculated
+                   | - If **Effort Driven** is not set: Work is recalculated
 **Fixed work**     | When you change Duration: Units are recalculated.
                    | When you change Work: Duration is recalculated.
                    | When you change Units: Duration is recalculated
 
-In other words, thanks to **Type** you can freeze one of the 3 properties, while **Is Effort Driven** defines whether Work should stay unchanged among the remaining two.
+In other words, thanks to **Type** you can freeze one of the 3 properties, while **Effort Driven** defines whether Work should stay unchanged among the remaining two.
 
 ## Notes
 
