@@ -40,7 +40,7 @@ If at least one subtask of a summary task has **Estimate** checked, the summary 
 
 Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on **Advanced** tab of **Project Properties** dialog.
 
-When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-is-effort-driven).
+When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-effort-driven).
 
 ## Work
 
@@ -50,7 +50,7 @@ Work can be changed using **Work** field in **Task Properties** dialog.
 
 Just like Duration, Work can be specified in Hours, Days, Weeks or Months using definitions of these on **Advanced** tab of **Project Properties** dialog. However, Work is always displayed in Hours.
 
-When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-is-effort-driven).
+When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-effort-driven).
 
 ## Deadline
 
