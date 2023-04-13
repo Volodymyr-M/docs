@@ -8,7 +8,7 @@ order: 2
 
 ## Summary Tasks
 
-Summary tasks allow you to group your tasks. To create a summary task, you simply indent (by tapping **Indent selected tasks** button on the toolbar) the tasks under the designated summary task. By unindenting all subtasks of a summary task (**Unindent selected tasks** button) you can change the summary task back to being a regular task.
+Summary tasks allow you to group your tasks. To create a summary task, you simply indent (by tapping **Indent selected tasks** button on the toolbar) the tasks under the designated summary task. By removing the indentation of all subtasks of a summary task (**Unindent selected tasks** button) you can change the summary task back to being a regular task.
 
 As summary tasks group other tasks, they are not tasks on themselves, so their durations show the overall duration of the tasks within the group. The end date of a summary task is the latest end date among end dates of subtasks.
 
@@ -38,7 +38,7 @@ When you're not yet confident with your estimate for the Duration, you can mark 
 
 If at least one subtask of a summary task has **Estimate** checked, the summary task's duration is also marked as **Estimate** and thus also shows "**?**".
 
-Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on **Advanced** tab of **Project Properties** dialog.
+Duration can be set in Hours, Days, Weeks or Months. By default, "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on **Advanced** tab of **Project Properties** dialog.
 
 When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-effort-driven).
 
@@ -64,7 +64,6 @@ Deadlines are shown in the Gantt chart as special icons.
 
 > If your schedule shows that a task finishes later than its deadline specifies, Ingantt shows an icon in the list of tasks and counts such tasks in the navigation drawer.
 {: .prompt-info }
-
 > You can set a deadline for the entire project by setting the deadline to its root summary task. Just make sure the root summary task is set to visible in **Options** dialog.
 {: .prompt-tip }
 
@@ -76,7 +75,7 @@ If you specify 0 as the **Duration** of a task, the task is marked as **Mileston
 
 ## Critical Tasks
 
-Once your plan is put into action, reality happens. Some tasks finish earlier than planned, but some are not. And you might notice that some tasks are done a little longer but this does not make the entire project longer. These tasks have some room to grow, some _slack_.
+Once your plan is put into action, reality happens. Some tasks finish earlier than planned, but some are not. And you might notice that some tasks are done a little longer, but this does not make the entire project longer. These tasks have some room to grow, some _slack_.
 
 On the other hand, there are other tasks, and when they are done longer, the entire project's end date is shifted. They don't have room to grow at all, their slack is zero. Such tasks which cannot be delayed without delaying the entire project are called _critical tasks_. If you expect your project to finish in time it is important to pay special attention to critical tasks when tracking your project's progress.
 
@@ -113,10 +112,10 @@ Constraint                 | Description
 :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------
 **As soon as possible**    | Task is scheduled as soon as the predecessors allow. So, if no predecessors are linked, the task starts at the beginning of the parent's summary task.
 **As late as possible**    | Task is scheduled as late as the predecessors allow. So, if no predecessors are linked, the task finishes at the end of the parent's summary task.
-**Start no earlier than**  | If the task starts later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date.
-**Start no later than**    | If the task starts earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date.
-**Finish no earlier than** | If the task finishes later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.
-**Finish no later than**   | If the task finishes earlier than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to finish on the specified date.
+**Start no earlier than**  | If the task starts later than the specified date due to predecessors, nothing changes. Otherwise, the task is scheduled to start on the specified date.
+**Start no later than**    | If the task starts earlier than the specified date due to predecessors, nothing changes. Otherwise, the task is scheduled to start on the specified date.
+**Finish no earlier than** | If the task finishes later than the specified date due to predecessors, nothing changes. Otherwise, the task is scheduled to finish on the specified date.
+**Finish no later than**   | If the task finishes earlier than the specified date due to predecessors, nothing changes. Otherwise, the task is scheduled to finish on the specified date.
 **Must start on**          | Task's start date is scheduled to be exactly as specified, regardless of predecessors.
 **Must finish on**         | Task's finish date is scheduled to be exactly as specified, regardless of predecessors.
 
@@ -165,10 +164,11 @@ Resource assignments of work or material resource types have **Units** as shown 
 
 By default, work resources are assigned with 100% units. This means that they will do the particular task fully dedicating their time available in their calendar. You can change the default value to a lower number.
 
-By default, material resources are assigned with 1 unit. This means that 1 unit (box, gallon, ton etc depending on how you define it for the material) of that material will be spent when implementing the task. You can change the default value and set any number of units.
+By default, material resources are assigned with 1 unit. This means that 1 unit (box, gallon, ton etc. depending on how you define it for the material) of that material will be spent when implementing the task. You can change the default value and set any number of units.
 
 ## Predecessors and Dependencies
-When you link tasks using **Link selected tasks** toolbar button, you create a dependency between the tasks. The dependency is called **Finish to Start** and it is one of 4 dependencies available:
+
+When you link tasks using **Link selected tasks** toolbar button, you create a dependency between the tasks. The dependency is called **Finish to Start**, and it is one of 4 dependencies available:
 
 Type                 | Description
 :------------------- | :-------------------------------------------------------------------
@@ -185,7 +185,7 @@ Sometimes you might need to set some waiting time between 2 dependent tasks.
 
 Let's say that your first task is "Paint the wall" and your second task is "Hang pictures on the wall", these tasks are linked (have **Finish to Start** dependency). It's not possible to hang pictures until the paint is dry, so you need to wait. To reflect this in your schedule, set the **Lag** (for example, 1 day) for the dependency between the two tasks.
 
-Lags can also be used in a situation directly opposite to waiting, when the depending task should start a little bit earlier. To set this, make the **Lag** negative (for example, -1 day). This is called _lead time_.
+Lags can also be used in a situation directly opposite to waiting, when the depending task should start a bit earlier. To set this, make the **Lag** negative (for example, -1 day). This is called _lead time_.
 
 To set lag or lead time, use **Edit** button in **Predecessors** tab in **Task Properties** dialog to set such time between the task that is being edited and its predecessor in the list.
 

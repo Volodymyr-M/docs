@@ -10,9 +10,9 @@ order: 1
 
 Ingantt is multi-platform, so install the version that is right for you device.
 
-- **Web:** Just open this [link](https://web.ingantt.com/)
-- **Windows:** Coming soon
-- **Android:** Coming soon
+- **Android:** [Get at Google Play](https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt){:target="_blank"}
+- **Windows:** [Get at Microsoft Store](ms-windows-store://pdp/?productid=9NHQ26QV09F6)
+- **Web:** [Open this link](https://web.ingantt.com){:target="_blank"}
 
 > We would like to hear your feedback! Please contact us using the email specified in the bottom left corner of the page.
 {: .prompt-info }
@@ -33,7 +33,7 @@ Once you click on **Create new** project button, you're brought to a split scree
 - To select multiple tasks on Android, hold your finger a little longer while tapping each task either in the list or in the Gantt chart.
 - On other systems click on tasks in the list or in the Gantt chart while holding _Ctrl_ or _Shift_.
 
-Now that the tasks are linked if you decide to update the duration of the first task (by double clicking it in the list or the Gantt chart and editing **Duration** field in **Task Properties** dialog), you can see how this change affects the schedule shifting the second task.
+Now that the tasks are linked if you decide to update the duration of the first task (by double-clicking it in the list or the Gantt chart and editing **Duration** field in **Task Properties** dialog), you can see how this change affects the schedule shifting the second task.
 
 ## Setting project's Name and Start Date
 
@@ -50,7 +50,7 @@ Let's say that 2 different people will do each of the tasks in your project.
 
 Click on the navigation menu button and switch to **Resources** view. Click on the big **+** button and add a work resource to your project using **Add Resource** dialog by giving the resource some **Name**. Then repeat the steps to add another work resource.
 
-Using the navigation menu switch back to **Tasks** view, double click your first task in the list or in the Gantt chart to open **Task Properties** dialog.
+Using the navigation menu switch back to **Tasks** view, double-click your first task in the list or in the Gantt chart to open **Task Properties** dialog.
 
 Switch to **Resources** tab, check your first resource to assign this person to the task and save your changes.
 
@@ -64,20 +64,20 @@ Let's say that the resource doing the first task in your project needs to have 1
 
 To configure this, use the navigation menu to go to **Resources** view.
 
-Double click on the resource so see **Resource Properties**. Go to **Calendar** tab and click **Add exception** button. Choose one of the days during the course of your project, leave the list of working times empty and save.
+Double-click on the resource so see **Resource Properties**. Go to **Calendar** tab and click **Add exception** button. Choose one of the days during the course of your project, leave the list of working times empty and save.
 
 Using the navigation menu go back to **Tasks** and see how your schedule has changed and the task following the resource's task has also shifted due to its dependency on it.
 
-> Similarly you can configure not only vacations, but also other changes to a person's schedule. For example, by adding working time to the Exception you can tell Ingantt that on that particular day the resource works only during specific hours.
+> Similarly, you can configure not only vacations, but also other changes to a person's schedule. For example, by adding working time to the Exception you can tell Ingantt that on that particular day the resource works only during specific hours.
 {: .prompt-info }
 
 ## Setting holidays
 
 Let's say that there's a holiday during the course of your project, a day during which no work is done.
 
-While vacations are configured through each resource's calendar, days affecting everyone are configured in the project's calendar. The default project's calendar is called **Standard** and it already contains information that no work is done on weekends.
+While vacations are configured through each resource's calendar, days affecting everyone are configured in the project's calendar. The default project's calendar is called **Standard**, and it already contains information that no work is done on weekends.
 
-To configure holidays, use navigation menu to go to **Calendars** view. Double click on **Standard** so see **Calendar Properties**. Click **Add exception** button. Choose one of the days during the course of your project, leave the list of working times empty and save.
+To configure holidays, use navigation menu to go to **Calendars** view. Double-click on **Standard** so see **Calendar Properties**. Click **Add exception** button. Choose one of the days during the course of your project, leave the list of working times empty and save.
 
 Using the navigation menu go back to **Tasks** view and see how your project has changed and the tasks are shifted. In the Gantt chart your holiday is shown similarly to weekends.
 

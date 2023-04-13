@@ -4,17 +4,17 @@ toc: false
 title: Ingantt Docs
 ---
 
-# Welcome to Ingantt!
+# Welcome to Ingantt
 
-Ingantt is a project management multi-platform app allowing to create project plans, schedules, timelines, roadmaps.
+Ingantt is a project management multi-platform app allowing to create project plans, schedules, timelines in a way similar to Microsoft Project.
 
 ## What you can do with Ingantt
 
 - plan and estimate your project by splitting the project into a number of tasks and setting dependencies between them
 - review you plan using Gantt chart
 - manage project resources (work, material or cost) and assign them to tasks
-- manage project calendars (set working times, add holidays etc)
-- manage resource calendars (working times, vacations etc)
+- manage project calendars (set working times, add holidays etc.)
+- manage resource calendars (working times, vacations etc.)
 - plan and estimate costs
 - control your project's progress by setting % complete values
 - review critical tasks

@@ -44,7 +44,7 @@ Default Calendar | Description
 **Night Shift**  | Work is done Monday night through Saturday morning, 11 PM to 8 AM with an hour off (3 AM to 4AM) break.
 **24-hours**     | Work is done 24 hours a day each day.
 
-As mentioned above, the Standard calendar defines that work is done Monday-Friday 8 AM - 5 PM with 1 hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
+As mentioned above, the Standard calendar defines that work is done Monday-Friday 8 AM - 5 PM with 1-hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
 
 You can edit any of the pre-defined calendars using **Calendar Properties** dialog or make your own calendars based on them using **Add Calendar** dialog.
 
@@ -67,4 +67,4 @@ If you do not add any working time to a calendar, it is empty, so it cannot be u
 
 However, there are situations, when your calendar is not empty, but still doesn't have enough working time to schedule a particular task. These situations can only be detected when scheduling is done.
 
-If you assign an empty calendar, or a calendar which doesn't have enough working time, to any entity (task, resource, project) and thus scheduling cannot proceed, an error is shown and the last action is reverted.
+If you assign an empty calendar, or a calendar which doesn't have enough working time, to any entity (task, resource, project) and thus scheduling cannot proceed, an error is shown, and the last action is reverted.

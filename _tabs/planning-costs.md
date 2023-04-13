@@ -27,14 +27,14 @@ By filling in the **Fixed Cost** property in the **Task Properties** dialog you 
 By filling in the **Cost** property in the **Resource Properties** dialog you can set the cost of the resource, thus affecting the total Cost of all tasks to which the resource is assigned. Depending on the type of the resource, you set the property
 
 - as a rate (like hourly rate of a contractor) for **work** resources
-- as a cost per unit (per piece, per ton, per box etc) for **material** resources
+- as a cost per unit (per piece, per ton, per box etc.) for **material** resources
 - as a cost in total for **cost** resources
 
 As **work** resources is the only type which has a calendar, the cost of this type of resource is specified per hour, per day, per week or per month. By default, a day is 8 hours, a week is 5 days (40 hours) and a month is 20 days. These defaults can be changed on the **Advanced** tab of **Project Properties** dialog.
 
 When a work resource is assigned to a task, you can specify **Units** value as a number different from the default 100%. This has impact on cost calculations, for example, if **Units** is 50% then the calculated cost for the resource in the task is half of what it would be with 100% Units.
 
-In **material** resources cost is specified per unit depending on how you define the meaning of the unit. It can be some weight measurement (like a pound, kilogram, ton etc), length or volume measurement (foot, meter, mile, gallon, liter etc) or any other measurement (container, box, piece, square foot etc).
+In **material** resources cost is specified per unit depending on how you define the meaning of the unit. It can be some weight measurement (like a pound, kilogram, ton etc.), length or volume measurement (foot, meter, mile, gallon, liter etc.) or any other measurement (container, box, piece, square foot etc.).
 
 For example, if fuel is used in your project, you can add "fuel" material resource and specify the cost per gallon for it in **Resource Properties**. Then when assigning the resource to tasks in which the fuel is used you specify the number of gallons necessary for each task as **Units**, and Ingantt calculates the total cost of the fuel (as well as other costs) automatically for you.
 
