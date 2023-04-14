@@ -35,6 +35,13 @@ There are multiple ways to see tasks in Ingantt. The following task views are av
 
 All these views are fully functional, meaning that you can do every action available for tasks in any view, even when you use **Gantt Chart Only** view. Just use the ability to [select multiple items](#select-multiple-items) anywhere: in the task list or the Gantt chart, as well as the ability to open **Task Properties** by double tapping/clicking (in the list and the chart).
 
+## Opening MPP files
+
+Ingantt can open local files in Microsoft Project's MPP format (".mpp" extension). If you make changes to such a file, they are saved by Ingantt in a new file using XML format which can also be opened by Microsoft Project.
+
+> To open MPP files Ingantt sends them through a secure connection to Ingantt web service which converts them to XML format. Your files are not stored on the service. Internet connection is required.
+{: .prompt-info }
+
 ## Keyboard shortcuts
 
 > Not applicable for **Android** version.

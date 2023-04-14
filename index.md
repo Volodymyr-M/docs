@@ -25,7 +25,9 @@ Ingantt is a project management multi-platform app allowing to create project pl
 
 ## Compatibility
 
-Ingantt is a user-friendly alternative to Microsoft Project, if you're familiar with Microsoft Project, you can quickly get started with Ingantt. Ingantt can open files saved by Microsoft Project in XML format. Files saved by Ingantt also use the same XML format, so they can be opened by Microsoft Project or software compatible with it.
+Ingantt is a user-friendly alternative to Microsoft Project, if you're familiar with Microsoft Project, you can quickly get started with Ingantt.
+
+Ingantt can open files saved by Microsoft Project in MPP or XML format. Files saved by Ingantt also use the same XML format as Microsoft Project, so they can be opened by Microsoft Project or software compatible with it.
 
 ## Cloud support
 
