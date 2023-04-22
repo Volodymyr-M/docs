@@ -87,7 +87,7 @@ If there's a cost specifically associated with your particular task, you can set
 
 Task's total cost (shown in **Cost** column of the task list) is calculated as a total of Fixed Cost and costs of assigned resources based on their costs/rates.
 
-For more information on costs, see [Planning costs](../planning-costs/).
+For more information on costs, see [Planning costs]({% link _tabs/planning-costs.md %}).
 
 ## % Complete
 

@@ -30,7 +30,7 @@ For **material** resources cost is specified per **Unit**. So that once the reso
 
 For **cost** resources you specify the total cost of the resource. Units are not applicable in this case, you just specify the **Cost** as a fixed price which is added to a task's cost once the resource is assigned to the task.
 
-For more information on costs, see [Planning costs](../planning-costs/).
+For more information on costs, see [Planning costs]({% link _tabs/planning-costs.md %}).
 
 ## Overallocated resources
 
