@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Advanced Project Scheduling App with Gantt chart support alternative to Microsoft Project
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://ingantt.com"
+url: "https://docs.ingantt.com"
 
 github:
   username: github_username # change to your github username
