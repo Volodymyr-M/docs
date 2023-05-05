@@ -38,7 +38,7 @@ A work resource can be **overallocated**, which means that it has more work assi
 
 If a task has overallocated resources assigned, Ingantt shows a special icon for it in the list of tasks.
 
-If a resource is overallocated, Ingantt shows a special icon for it in the list of resources.
+If a resource is overallocated, Ingantt shows a special icon for it in **Resources** view and **Resource Usage** view.
 
 Also, Ingantt counts such tasks and resources and shows the numbers in the navigation drawer.
 
@@ -46,6 +46,14 @@ Also, Ingantt counts such tasks and resources and shows the numbers in the navig
 
 It's possible to set dependencies between tasks and thus modify their position on the timeline. In projects with many resources and tasks it's easy to miss setting a dependency, so that your schedule can contain 2 or more tasks assigned to the same work resource but which (because of the lack of dependency) are scheduled to be done at the same time. This means that the resource has to do more work than it can do in that time: it is overallocated, and you are notified about that by Ingantt using special icons in tasks and resources lists.
 
-You can resolve the overallocation manually by setting dependencies or constraints to move some tasks so that work is not done at the same time.
+You can resolve the over-allocation manually by setting dependencies or constraints to move some tasks so that work is not done at the same time.
 
-An alternative way to resolve overallocation is auto-leveling. If you choose to **Auto-level resources** in the main menu Ingantt automatically shifts some tasks further in the timeline to prevent resources from being overallocated. You can clear these automatic adjustments by choosing **Clear leveling** in the main menu.
+An alternative way to resolve over-allocation is auto-leveling. If you choose to **Auto-level resources** in the main menu Ingantt automatically shifts some tasks further in the timeline to prevent resources from being overallocated. You can clear these automatic adjustments by choosing **Clear leveling** in the main menu.
+
+## Resource Usage
+
+**Resource Usage** view allows to see all resource assignments and the amount of Work that each work resource does during each period in the timeline.
+
+Just like with the Gantt chart, you can zoom the timeline in or out to see more or less detailed view.
+
+If the resource has to perform more Work than the calendars allow for the given time period in the timeline, the corresponding Work is highlighted in red.
