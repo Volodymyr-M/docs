@@ -23,6 +23,7 @@ Ingantt is a project management multi-platform app allowing to create project pl
 - review the work done by resources during each time period using Resource Usage view
 - mark tasks as milestones
 - set task deadlines and be notified if the task is scheduled to finish later
+- get a printable PDF to print your Gantt chart
 
 ## Compatibility
 
