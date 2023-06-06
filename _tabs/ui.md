@@ -48,6 +48,23 @@ Ingantt outputs your Gantt chart as a PDF file when **Printable PDF...** is chos
 
 The file is generated using the same options as the Gantt chart in the user interface. This means, for example, that if the names of your tasks are set to be not visible in the **Options** dialog, task names in the generated PDF file will not be shown as well. Also, when you zoom in or out the Gantt chart in the user interface, the resulting PDF file has the same zoom settings.
 
+## Supported languages
+
+If the locale of your device is set to one of the supported languages, Ingantt uses the language in the user interface.
+
+The following user interface languages are supported by Ingantt:
+
+- English
+- German
+- Italian
+- Spanish
+- Polish
+- Ukrainian
+
+If the locale of your device is set to none of the supported languages, Ingantt uses English in the user interface.
+
+Regardless of the language of the user interface, you can use any language in your task names and other texts within your schedules.
+
 ## Keyboard shortcuts
 
 > Not applicable for **Android** version.
