@@ -10,7 +10,7 @@ order: 7
 
 On the **Android** version use a long press to select another item. Just hold your finger on the item a little longer than when you tap.
 
-On **Windows** and **Web** versions you can also use the following methods:
+On **Windows**, **Mac** and **Web** versions you can also use the following methods:
 
 - hold _Ctrl_ while clicking items with your mouse to select more individual items
 - hold _Shift_ to select groups of items in-between previously selected and the newly selected item.
@@ -67,7 +67,8 @@ Regardless of the language of the user interface, you can use any language in yo
 
 ## Keyboard shortcuts
 
-> Not applicable for **Android** version.
+> Not applicable on **Android** version.
+> On **Mac** version use ⌘ key instead of _Ctrl_.
 
 Shortcut               | Description
 :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

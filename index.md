@@ -37,4 +37,4 @@ Ingantt can create, open and save local files on your device. If you choose, you
 
 ## Platform support
 
-Ingantt is available on Windows, Android and the Web.
+Ingantt is available on Windows, MacOS, Android and the Web.
