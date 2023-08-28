@@ -15,7 +15,7 @@ Ingantt is multi-platform, so install the version that is right for you device.
 - **MacOS:** [Download on the Mac App Store](https://apps.apple.com/us/app/ingantt/id6450835363){:target="_blank"}
 - **Web:** [Open this link](https://web.ingantt.com){:target="_blank"}
 
-> We would like to hear your feedback! Please contact us using the email specified in the bottom left corner of the page.
+> Do you have feedback, questions or suggestions? Please contact us using the email specified in the bottom left corner of the page.
 {: .prompt-info }
 
 ## Logging in (optional)
