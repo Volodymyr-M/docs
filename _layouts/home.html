@@ -3,8 +3,11 @@ layout: page
 refactor: true
 panel_includes:
   - toc
+toc: false
+title: Ingantt Docs
 ---
 
 <div class="post-content">
-  {{ content | markdownify }}
+  {% capture p1 %}{% include main.md %}{% endcapture %}
+  {{ p1 | markdownify }}
 </div>
