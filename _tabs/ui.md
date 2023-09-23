@@ -8,9 +8,9 @@ order: 7
 
 ## Select multiple items
 
-On the **Android** version use a long press to select another item. Just hold your finger on the item a little longer than when you tap.
+On **Android** and **iOS** versions use a long press to select another item. Just hold your finger on the item a little longer than when you tap.
 
-On **Windows**, **MacOS** and **Web** versions you can also use the following methods:
+On **Windows**, **macOS** and **Web** versions you can also use the following methods:
 
 - hold _Ctrl_ while clicking items with your mouse to select more individual items
 - hold _Shift_ to select groups of items in-between previously selected and the newly selected item.
@@ -67,7 +67,7 @@ Regardless of the language of the user interface, you can use any language in yo
 
 ## Keyboard shortcuts
 
-> Not applicable on **Android** version.
+> Not applicable on **Android** and **iOS** versions.
 > On **MacOS** version use ⌘ key instead of _Ctrl_.
 
 Shortcut               | Description

@@ -27,8 +27,8 @@ Ingantt can open files saved by Microsoft Project in MPP or XML format. Files sa
 
 ## Cloud support
 
-Ingantt can create, open and save local files on your device. If you choose, you can sign in to your Google account to be able to open and save files on your Google Drive.
+Ingantt can create, open and save local files on your device. If you choose, on some platforms you can sign in to your Google account to be able to open and save files on your Google Drive.
 
 ## Platform support
 
-Ingantt is available on Windows, MacOS, Android and the Web.
+Ingantt is available on Windows, macOS, Android, iOS and the Web.

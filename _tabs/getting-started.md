@@ -10,9 +10,10 @@ order: 1
 
 Ingantt is multi-platform, so install the version that is right for you device.
 
-- **Android:** [Get it on Google Play](https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt){:target="_blank"}
 - **Windows:** [Get it from Microsoft Store](ms-windows-store://pdp/?productid=9NHQ26QV09F6)
-- **MacOS:** [Download on the Mac App Store](https://apps.apple.com/us/app/ingantt/id6450835363){:target="_blank"}
+- **Android:** [Get it on Google Play](https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt){:target="_blank"}
+- **macOS:** [Download on the Mac App Store](https://apps.apple.com/us/app/ingantt/id6450835363){:target="_blank"}
+- **iOS:** [Download on the App Store](https://apps.apple.com/us/app/ingantt-project-scheduling/id6466750274){:target="_blank"}
 - **Web:** [Open this link](https://web.ingantt.com){:target="_blank"}
 
 > Do you have feedback, questions or suggestions? Please contact us using the email specified in the bottom left corner of the page.
@@ -20,7 +21,7 @@ Ingantt is multi-platform, so install the version that is right for you device.
 
 ## Logging in (optional)
 
-Once installed, you can start working with Ingantt right away by creating, opening and saving local files on your device. If you would like to have your files in the cloud, you can **Sign in to Google**. This gives you the ability to save and open your schedules from your **Google Drive** storage.
+Once installed, you can start working with Ingantt right away by creating, opening and saving local files on your device. If you would like to have your files in the cloud, on non-Apple platforms you can **Sign in to Google**. This gives you the ability to save and open your schedules from your **Google Drive** storage.
 
 > When signing in, Ingantt requires permission to only be able to edit the files that it creates. No other files are read or written, and the permission for them is not requested.
 {: .prompt-info }
@@ -31,8 +32,8 @@ Let's say you have a small home renovation project of 2 tasks, one is done after
 
 Once you click on **Create new** project button, you're brought to a split screen containing your future list of tasks on the left and your Gantt chart on the right. Add your tasks one after another by clicking on the big **+** button in the bottom right and specifying **Name** and predicted **Duration** of each of them in **Add Task** dialog. Select both of your tasks in the list on the left and then click **Link selected tasks** toolbar button. This makes the tasks connected and the Gantt chart is updated.
 
-- To select multiple tasks on Android, hold your finger a little longer while tapping each task either in the list or in the Gantt chart.
-- On other systems click on tasks in the list or in the Gantt chart while holding _Ctrl_ or _Shift_.
+- To select multiple tasks on Android and iOS, hold your finger a little longer while tapping each task either in the list or in the Gantt chart.
+- On other platforms click on tasks in the list or in the Gantt chart while holding _Ctrl_ or _Shift_.
 
 Now that the tasks are linked if you decide to update the duration of the first task (by double-clicking it in the list or the Gantt chart and editing **Duration** field in **Task Properties** dialog), you can see how this change affects the schedule shifting the second task.
 
