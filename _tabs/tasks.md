@@ -8,7 +8,7 @@ order: 2
 
 ## Summary Tasks
 
-Summary tasks allow you to group your tasks. To create a summary task, you simply indent (by tapping **Indent selected tasks** button on the toolbar) the tasks under the designated summary task. By removing the indentation of all subtasks of a summary task (**Unindent selected tasks** button) you can change the summary task back to being a regular task.
+Summary tasks allow you to group your tasks. To create a summary task, you simply indent (by tapping **Increase indent** button on the toolbar) the tasks under the designated summary task. By removing the indentation of all subtasks of a summary task (**Decrease indent** button) you can change the summary task back to being a regular task.
 
 As summary tasks group other tasks, they are not tasks on themselves, so their durations show the overall duration of the tasks within the group. The end date of a summary task is the latest end date among end dates of subtasks.
 

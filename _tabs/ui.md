@@ -85,8 +85,8 @@ Shortcut               | Description
 **Arrow Down**         | Select the next item.
 **Ctrl + Arrow Up**    | Move selected tasks up.
 **Ctrl + Arrow Down**  | Move selected tasks down.
-**Ctrl + Arrow Left**  | Unindent selected tasks.
-**Ctrl + Arrow Right** | Indent selected tasks.
+**Ctrl + Arrow Left**  | Decrease indent of selected tasks.
+**Ctrl + Arrow Right** | Increase indent of selected tasks.
 **R**                  | Switch to **Resources** view.
 **C**                  | Switch to **Calendars** view.
 **T**                  | Switch to **Tasks** view.
