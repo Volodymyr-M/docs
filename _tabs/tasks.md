@@ -152,7 +152,7 @@ In other words, thanks to **Type** you can freeze one of the 3 properties, while
 
 You can add any texts to your task by filling in **Notes** field in **Task Properties** dialog. Use it for task description, contact information, ideas or any other text data.
 
-If a task has **Notes** field filled in, a special icon is shown for the task in the list of tasks. In Windows and Web versions of Ingantt hovering the mouse over the icon shows the note.
+If a task has **Notes** field filled in, a special icon is shown for the task in the list of tasks. On Windows, macOS and Web versions hovering the mouse over the icon shows the note.
 
 ## Resource Assignments and Units
 
