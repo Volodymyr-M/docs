@@ -68,7 +68,7 @@ Regardless of the language of the user interface, you can use any language in yo
 ## Keyboard shortcuts
 
 > Not applicable on **Android** and **iOS** versions.
-> On **macOS** version use ⌘ key instead of _Ctrl_.
+> On **macOS** use ⌘ key instead of _Ctrl_.
 
 Shortcut               | Description
 :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
