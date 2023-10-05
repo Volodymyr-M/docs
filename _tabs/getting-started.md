@@ -25,6 +25,9 @@ Once installed, you can start working with Ingantt right away by creating, openi
 > When signing in, Ingantt requires permission to only be able to edit the files that it creates. No other files are read or written, and the permission for them is not requested.
 {: .prompt-info }
 
+![light mode only](/tabs/images/main_buttons_light.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](/tabs/images/main_buttons_dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+
 ## Creating basic schedule
 
 Let's say you have a small home renovation project of 2 tasks, one is done after another.
@@ -34,13 +37,18 @@ Once you click on **Create new** project button, you're brought to a split scree
 - To select multiple tasks on Android and iOS, hold your finger a little longer while tapping each task either in the list or in the Gantt chart.
 - On other platforms click on tasks in the list or in the Gantt chart while holding _Ctrl_ or _Shift_.
 
+![light mode only](/tabs/images/basic_light.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](/tabs/images/basic_dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+
 Now that the tasks are linked if you decide to update the duration of the first task (by double-clicking it in the list or the Gantt chart and editing **Duration** field in **Task Properties** dialog), you can see how this change affects the schedule shifting the second task.
 
 ## Setting project's Name and Start Date
 
 Your project might start on a different day than the default used by Ingantt.
 
-Click on **Show menu** toolbar icon, and then on **Project Properties**. Set the new project start date in **Project Start Date** field. And change the **Name** of the project while you're there.
+Click on **Show menu** toolbar icon, and then on **Project Properties**.
+
+Set the new project start date in **Project Start Date** field. And change the **Name** of the project while you're there.
 
 > With all the simplicity of the basic schedule, by looking at the Gantt chart you can already tell when the project is expected to end.
 {: .prompt-tip }
