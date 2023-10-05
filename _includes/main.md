@@ -1,6 +1,8 @@
-# Welcome to Ingantt
+# Welcome to Ingantt!
 
 Ingantt is a project management multi-platform app allowing to create project plans, schedules, timelines in a way similar to Microsoft Project.
+
+{% include contact.html %}
 
 ## What you can do with Ingantt
 

@@ -16,8 +16,7 @@ Ingantt is multi-platform, so install the version that is right for you device.
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/ingantt-project-scheduling/id6466750274){:target="_blank"}
 - **Web:** [Open this link](https://web.ingantt.com){:target="_blank"}
 
-> Do you have feedback, questions or suggestions? Please contact us using the email specified in the bottom left corner of the page.
-{: .prompt-info }
+{% include contact.html %}
 
 ## Logging in (optional)
 
