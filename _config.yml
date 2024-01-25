@@ -197,5 +197,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-uses: actions/jekyll-build-pages@v1.0.9
