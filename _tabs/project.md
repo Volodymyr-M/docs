@@ -8,7 +8,7 @@ order: 5
 
 ## Project Name
 
-By filling in the **Name** field in the **Project Properties** dialog's **General** tab you set the name for your project. This name is also used by your project's root summary task.
+By filling in the **Name** field in the **Project Properties** dialog's **General** tab you set the name for your project. This name is also used by your project's [root summary task]({% link _tabs/tasks.md %}#root-summary-task).
 
 ## Start Date and planning from Start and Finish dates
 
@@ -21,7 +21,7 @@ There are some things to keep in mind:
 - For projects planned from the Start date the default constraint for newly created tasks is **As soon as possible**.
 - For projects planned from the Finish date the default constraint for newly created tasks is **As late as possible**.
 
-Also, when you switch between planning from Start and Finish, constraints of existing tasks in your project are not changed except for summary tasks, including the root summary task.
+Also, when you switch between planning from Start and Finish, constraints of existing tasks in your project are not changed except for summary tasks, including the [root summary task]({% link _tabs/tasks.md %}#root-summary-task).
 
 For summary tasks:
 
@@ -32,7 +32,7 @@ For summary tasks:
 
 Depending on your country, a week can traditionally be considered to start either from Sunday or from Monday. You can update the **First day of week** field on the **Regional** tab of **Project Properties** dialog to change the default setting in your project.
 
-Changing this property updates the user interface, including the Gantt chart on some of its zoom levels, but this change does not affect scheduling.
+Changing this property updates the user interface, including the Gantt chart on some of its zoom levels, but this change does not affect scheduling. If necessary, update [Calendars]({% link _tabs/calendars.md %}) in order for the schedule to be updated.
 
 ## Currency and Currency Position
 

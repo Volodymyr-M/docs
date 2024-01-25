@@ -35,6 +35,10 @@ There are multiple ways to see tasks in Ingantt. The following task views are av
 
 All these views are fully functional, meaning that you can do every action available for tasks in any view, even when you use **Gantt Chart Only** view. Just use the ability to [select multiple items](#select-multiple-items) anywhere: in the task list or the Gantt chart, as well as the ability to open **Task Properties** by double tapping/clicking (in the list and the chart).
 
+## Task columns
+
+Columns in all lists of tasks (**Split Screen**, **Triple View** or **List Only** views) can be turned on or off as well as rearranged using the **Options** dialog (**Task Columns** tab).
+
 ## Opening MPP files
 
 Ingantt can open local files in Microsoft Project's MPP format (".mpp" extension). If you make changes to such a file, they are saved by Ingantt in a new file using XML format which can also be opened by Microsoft Project.
