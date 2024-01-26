@@ -11,9 +11,9 @@ Using individual tasks' fixed costs combined with the costs of resources assigne
 > If you don't see the **Cost** column in the list of tasks, make sure the **Cost column** flag is checked on the **Task Columns** tab of **Options** dialog.
 {: .prompt-info }
 
-Each summary task shows the total Cost of all its subtasks.
+Each [summary task]({% link _tabs/tasks.md %}#summary-tasks) shows the total Cost of all its subtasks.
 
-Project's root summary task shows the total Cost of the entire project.
+Project's [root summary task]({% link _tabs/tasks.md %}#root-summary-task) shows the total Cost of the entire project.
 
 ## Task's Fixed Cost
 
@@ -24,7 +24,7 @@ By filling in the **Fixed Cost** property in the **Task Properties** dialog you 
 
 ## Resource's Cost
 
-By filling in the **Cost** property in the **Resource Properties** dialog you can set the cost of the resource, thus affecting the total Cost of all tasks to which the resource is assigned. Depending on the type of the resource, you set the property
+By filling in the **Cost** property in the **Resource Properties** dialog you can set the cost of the resource, thus affecting the total Cost of all tasks to which the resource is [assigned]({% link _tabs/tasks.md %}#resource-assignments-and-units). Depending on the [type of the resource]({% link _tabs/resources.md %}#resource-type), you set the property
 
 - as a rate (like hourly rate of a contractor) for **work** resources
 - as a cost per unit (per piece, per ton, per box etc.) for **material** resources

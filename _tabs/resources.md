@@ -22,7 +22,7 @@ All types of resources affect cost calculations if **Cost** field is filled in f
 
 ## Resource Cost
 
-All types of resources, if you specify their cost, affect the total cost of tasks to which they are assigned.
+All types of resources, if you specify their cost, affect the total cost of tasks to which they are [assigned]({% link _tabs/tasks.md %}#resource-assignments-and-units).
 
 For **work** resources cost is specified as a rate: hourly, daily, weekly or monthly cost. Once such a resource is assigned to a task, Ingantt uses the task's scheduling data to calculate the cost of the resource for this task and add it to the task's total cost.
 
@@ -34,7 +34,7 @@ For more information on costs, see [Planning costs]({% link _tabs/planning-costs
 
 ## Overallocated resources
 
-A work resource can be **overallocated**, which means that it has more work assigned than it can do based on its calendar data. For example, if your project has only 2 tasks with a duration of 1 day with no dependency between them both assigned to the same work resource, the resource is overallocated: in that one calendar day the resource has to do 2 days of work! To resolve this, in this example simply linking the tasks fixes the issue.
+A work resource can be **overallocated**, which means that it has more work assigned than it can do based on its calendar data. For example, if your project has only 2 tasks with a duration of 1 day with no [dependency]({% link _tabs/tasks.md %}#predecessors-and-dependencies) between them both assigned to the same work resource, the resource is overallocated: in that one calendar day the resource has to do 2 days of work! To resolve this, in this example simply linking the tasks fixes the issue.
 
 If a task has overallocated resources assigned, Ingantt shows a special icon for it in the list of tasks.
 
@@ -52,7 +52,7 @@ An alternative way to resolve over-allocation is auto-leveling. If you choose to
 
 ## Resource Usage
 
-**Resource Usage** view allows to see all resource assignments and the amount of Work that each work resource does during each period in the timeline.
+**Resource Usage** view allows to see all resource assignments and the amount of [Work]({% link _tabs/tasks.md %}#work) that each work resource does during each period in the timeline.
 
 Just like with the Gantt chart, you can zoom the timeline in or out to see more or less detailed view.
 

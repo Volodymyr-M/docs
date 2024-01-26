@@ -18,10 +18,10 @@ But in some (rather rare) cases it is convenient to plan your project knowing it
 
 There are some things to keep in mind:
 
-- For projects planned from the Start date the default constraint for newly created tasks is **As soon as possible**.
+- For projects planned from the Start date the default [constraint]({% link _tabs/tasks.md %}#constraints) for newly created tasks is **As soon as possible**.
 - For projects planned from the Finish date the default constraint for newly created tasks is **As late as possible**.
 
-Also, when you switch between planning from Start and Finish, constraints of existing tasks in your project are not changed except for summary tasks, including the [root summary task]({% link _tabs/tasks.md %}#root-summary-task).
+Also, when you switch between planning from Start and Finish, constraints of existing tasks in your project are not changed except for [summary tasks]({% link _tabs/tasks.md %}#summary-tasks), including the [root summary task]({% link _tabs/tasks.md %}#root-summary-task).
 
 For summary tasks:
 
@@ -44,7 +44,7 @@ When you change currency, cost values are not recalculated.
 
 ## Hours per Day, Days per Week, Days per Month
 
-In Ingantt you can specify Duration, Work or Lag in Hours, Days, Weeks and Months.
+In Ingantt you can specify [Duration]({% link _tabs/tasks.md %}#duration), [Work]({% link _tabs/tasks.md %}#work) or [Lag]({% link _tabs/tasks.md %}#lag-and-lead-time) in Hours, Days, Weeks and Months.
 
 For example, you can set your task's duration to 2 Days and using default settings, Ingantt knows that these 2 "Days" are actually equal to 16 hours.
 

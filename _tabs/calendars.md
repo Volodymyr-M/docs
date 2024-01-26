@@ -17,7 +17,7 @@ Project has a **Calendar** associated with it as specified in **Project Properti
 
 ## Resource Calendar
 
-Each work resource has a calendar associated with it as specified in **Base Calendar** field of **Resource Properties** dialog. Once the work resource is assigned to a task, its calendar affects scheduling of the task.
+Each [work resource]({% link _tabs/resources.md %}#resource-type) has a calendar associated with it as specified in **Base Calendar** field of **Resource Properties** dialog. Once the work resource is [assigned]({% link _tabs/tasks.md %}#resource-assignments-and-units) to a task, its calendar affects scheduling of the task.
 
 > If you have multiple resources working according to a similar work schedule, you can create a Calendar and assign it to them. At the same time, you can specify Exceptions for each of them separately in **Resource Properties** if they have personal events like vacations or shorter/longer work periods on some dates.
 {: .prompt-tip }
