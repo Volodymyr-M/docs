@@ -42,9 +42,9 @@ Any number of resources of any type can be assigned to a task.
 
 ### Work Resource Cost
 
-As **work** resources is the only type which has a calendar, the cost of this type of resource is specified per hour, per day, per week or per month. By default, a day is 8 hours, a week is 5 days (40 hours) and a month is 20 days. These defaults can be changed on the **Advanced** tab of **Project Properties** dialog.
+As **work** resources is the only type which has a calendar, the cost of this type of resource is specified [per hour, per day, per week or per month]({% link _tabs/project.md %}#hours-per-day-days-per-week-days-per-month).
 
-For example, when you assign a work resource with the **Cost (rate)** of $100 per hour to a task and your task is 8 hours in **Duration**, the resulting amount of $800 is added to the **Cost** of the task.
+For example, when you assign a work resource with the **Cost (rate)** of $100 per hour to a task and your task is 5 hours in **Duration**, the resulting amount of $500 is added to the **Cost** of the task.
 
 When a work resource is assigned to a task, you can specify **Units** value as a number different from the default 100%. This has impact on cost calculations, for example, if **Units** is 50% then the calculated cost for the resource in the task is half of what it would be with 100% Units.
 

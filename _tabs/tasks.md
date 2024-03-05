@@ -162,7 +162,7 @@ To assign a resource, simply check the checkbox in the row with the resource. To
 
 Resource assignments of work or material resource types have **Units** as shown in the corresponding column. By clicking **Edit** button you can change the value of **Units** set by default when assigning.
 
-By default, work resources are assigned with 100% units. This means that they will do the particular task fully dedicating their time available in their calendar. You can change the default value to a lower number.
+By default, work resources are assigned with 100% units. This means that they will do the particular task fully dedicating their time available in their calendar. You can change the default value to any number.
 
 By default, material resources are assigned with 1 unit. This means that 1 unit (box, gallon, ton etc. depending on how you define it for the material) of that material will be spent when implementing the task. You can change the default value and set any number of units.
 
