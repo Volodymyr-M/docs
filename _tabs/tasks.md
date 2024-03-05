@@ -38,7 +38,7 @@ When you're not yet confident with your estimate for the Duration, you can mark 
 
 If at least one subtask of a summary task has **Estimate** checked, the summary task's duration is also marked as **Estimate** and thus also shows "**?**".
 
-Duration can be set in Hours, Days, Weeks or Months. By default, "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on **Advanced** tab of **Project Properties** dialog.
+Duration can be set in Hours, Days, Weeks or Months. By default, "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be [changed]({% link _tabs/project.md %}#hours-per-day-days-per-week-days-per-month) on **Advanced** tab of **Project Properties** dialog.
 
 When you change resource assignments, work or duration, one of these is recalculated according to task's [Type](#type-and-effort-driven).
 
