@@ -16,6 +16,9 @@ Similarly, a summary task shows the overall % complete of its subtasks, the tota
 
 In the Gantt chart summary tasks are shown as black bars. In the list of tasks they can be **expanded** or **collapsed** to show or hide the list of their subtasks.
 
+![light mode only](/tabs/images/tasks/summary.png){: .light  .shadow .rounded-10 w='611' h='117' }
+![dark mode only](/tabs/images/tasks/summary_d.png){: .dark .shadow .rounded-10 w='611' h='117' }
+
 ## Root Summary Task
 
 In Ingantt, there's always a summary task for your entire project. This task is task number 0, above all of your tasks.
@@ -67,9 +70,15 @@ Deadlines are shown in the Gantt chart as special icons.
 > You can set a deadline for the entire project by setting the deadline to its root summary task. Just make sure the root summary task is set to visible in **Options** dialog.
 {: .prompt-tip }
 
+![light mode only](/tabs/images/tasks/deadline.png){: .light  .shadow .rounded-10 w='604' h='77' }
+![dark mode only](/tabs/images/tasks/deadline_d.png){: .dark .shadow .rounded-10 w='604' h='77' }
+
 ## Milestone
 
 Any task can be marked as a milestone by checking **Milestone** checkbox in **Task Properties** dialog. This doesn't change its duration, doesn't affect scheduling, but the task is shown in the Gantt chart as an icon.
+
+![light mode only](/tabs/images/tasks/milestone.png){: .light  .shadow .rounded-10 w='577' h='81' }
+![dark mode only](/tabs/images/tasks/milestone_d.png){: .dark .shadow .rounded-10 w='577' h='81' }
 
 If you specify 0 as the **Duration** of a task, the task is marked as **Milestone** automatically once you save the change.
 
@@ -80,6 +89,9 @@ Once your plan is put into action, reality happens. Some tasks finish earlier th
 On the other hand, there are other tasks, and when they are done longer, the entire project's end date is shifted. They don't have room to grow at all, their slack is zero. Such tasks which cannot be delayed without delaying the entire project are called _critical tasks_. If you expect your project to finish in time it is important to pay special attention to critical tasks when tracking your project's progress.
 
 Ingantt allows detecting critical tasks automatically. If in the **Options** dialog **Highlight critical tasks in the Gantt chart** is checked, such tasks are displayed in red.
+
+![light mode only](/tabs/images/tasks/critical.png){: .light  .shadow .rounded-10 w='595' h='160' }
+![dark mode only](/tabs/images/tasks/critical_d.png){: .dark .shadow .rounded-10 w='595' h='160' }
 
 ## Fixed Cost
 
@@ -97,6 +109,9 @@ Use **% Complete** field in **Task Properties** dialog to set % complete of a pa
 
 > Updating this property updates visual representation of a task and summary tasks above it in the Gantt chart. It also updates **% Complete** column in the task list. But changing this property in Ingantt does not affect your schedule.
 {: .prompt-info }
+
+![light mode only](/tabs/images/tasks/complete.png){: .light  .shadow .rounded-10 w='494' h='208' }
+![dark mode only](/tabs/images/tasks/complete_d.png){: .dark .shadow .rounded-10 w='494' h='208' }
 
 ## Constraints
 
@@ -177,13 +192,19 @@ Type                 | Description
 **Start to Finish**  | the second task finishes at the same time as the first task starts
 **Start to Start**   | the second task starts at the same time as the first task starts
 
+![light mode only](/tabs/images/tasks/dependencies.png){: .light  .shadow .rounded-10 w='499' h='326' }
+![dark mode only](/tabs/images/tasks/dependencies_d.png){: .dark .shadow .rounded-10 w='499' h='326' }
+
 To assign predecessors and edit dependencies, use **Predecessors** tab in **Task Properties** dialog.
 
 ## Lag and Lead time
 
 Sometimes you might need to set some waiting time between 2 dependent tasks.
 
-Let's say that your first task is "Paint the wall" and your second task is "Hang pictures on the wall", these tasks are linked (have **Finish to Start** dependency). It's not possible to hang pictures until the paint is dry, so you need to wait. To reflect this in your schedule, set the **Lag** (for example, 1 day) for the dependency between the two tasks.
+Let's say that your first task is "Paint the wall" and your second task is "Hang pictures on the wall", these tasks are linked (have **Finish to Start** dependency). It's not possible to hang pictures until the paint is dry, so you need to wait. To reflect this in your schedule, set the **Lag** (for example, 2 days) for the dependency between the two tasks.
+
+![light mode only](/tabs/images/tasks/lag.png){: .light  .shadow .rounded-10 w='569' h='129' }
+![dark mode only](/tabs/images/tasks/lag_d.png){: .dark .shadow .rounded-10 w='569' h='129' }
 
 Lags can also be used in a situation directly opposite to waiting, when the depending task should start a bit earlier. To set this, make the **Lag** negative (for example, -1 day). This is called _lead time_.
 
