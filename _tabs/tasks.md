@@ -33,7 +33,7 @@ The name of the root summary task is the same as the name of the project.
 
 While planning your project you enter Durations as estimates, meaning that the duration is a reasonable guess of how much time a task will take for all resources involved.
 
-Don't confuse **Duration** with **Work**. You can have, for example, 3 people working on your task, but if they complete it in 1 day, you set the Duration of the task to 1 day. If these 3 people are assigned to the task, Ingantt calculates Work property for you as 3 days.
+Don't confuse **Duration** with **Work**. You can have, for example, 3 people working on your task, but if they complete it in 1 hour, you set the **Duration** of the task to 1 hour. If these 3 people are assigned to the task, Ingantt calculates **Work** property for you as 3 hours.
 
 Duration can be changed using **Duration** field in **Task Properties** dialog.
 
@@ -47,7 +47,7 @@ When you change resource assignments, work or duration, one of these is recalcul
 
 ## Work
 
-Once a task has a work resource assigned (like a person who does the task), **Work** property of the task becomes different from 0\. It shows the time all resources would spend working on the task. For example, if there are 2 people working on a task of duration of 1 day, Work becomes equal to 2 days (16 hours according to default settings).
+Once a task has a work resource assigned (like a person who does the task), **Work** property of the task becomes different from 0\. It shows the time all resources would spend working on the task. For example, if a task with **Duration** of 5 hours has 2 assigned resources working on it, the task's **Work** is equal to 10 hours.
 
 Work can be changed using **Work** field in **Task Properties** dialog.
 
@@ -103,7 +103,7 @@ For more information on costs, see [Planning costs]({% link _tabs/planning-costs
 
 ## % Complete
 
-Once your project is running, you need to track its progress. If you have % Complete set and up-to-date for each task, you can see the overall % Complete of the project in its root summary task.
+Once your project is running, you need to track its progress. If you have **% Complete** set and up-to-date for each task, you can see the overall **% Complete** of the project in its root summary task.
 
 Use **% Complete** field in **Task Properties** dialog to set % complete of a particular task.
 

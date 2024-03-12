@@ -36,7 +36,7 @@ If task's **Calendar** property is set to a calendar instead of **NONE**:
 
 ## Pre-defined calendars
 
-Ingantt has 3 predefined calendars, one of which (Standard) is assigned to the Project by default.
+Ingantt has 3 predefined calendars, one of which (**Standard**) is assigned to the Project by default.
 
 Default Calendar | Description
 :--------------- | :------------------------------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ Default Calendar | Description
 **Night Shift**  | Work is done Monday night through Saturday morning, 11 PM to 8 AM with an hour off (3 AM to 4AM) break.
 **24-hours**     | Work is done 24 hours a day each day.
 
-As mentioned above, the Standard calendar defines that work is done Monday-Friday 8 AM - 5 PM with 1-hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
+As mentioned above, the **Standard** calendar defines that work is done Monday-Friday 8 AM - 5 PM with 1-hour break. This means that when using this calendar Ingantt will not schedule tasks on Saturday, Sunday or at night.
 
 You can edit any of the pre-defined calendars using **Calendar Properties** dialog or make your own calendars based on them using **Add Calendar** dialog.
 
