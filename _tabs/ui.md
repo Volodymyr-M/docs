@@ -27,9 +27,9 @@ This works in all lists (tasks, resources, calendars) and bars representing task
 
 There are multiple ways to see tasks in Ingantt. The following task views are available:
 
-- **Split Screen**
-- **With Sidebar**
-- **Triple View**
+- **Split View**
+- **Edit Mode**
+- **Editable Split View**
 - **Gantt Chart Only**
 - **List Only**
 
@@ -37,7 +37,7 @@ All these views are fully functional, meaning that you can do every action avail
 
 ## Task columns
 
-Columns in all lists of tasks (**Split Screen**, **Triple View** or **List Only** views) can be turned on or off as well as rearranged using the **Options** dialog (**Task Columns** tab).
+Columns in all lists of tasks (**Split View**, **Editable Split View** or **List Only** views) can be turned on or off as well as rearranged using the **Options** dialog (**Task Columns** tab).
 
 ## Opening MPP files
 
@@ -62,9 +62,9 @@ The following user interface languages are supported by Ingantt:
 - French
 - German
 - Italian
-- Spanish
 - Polish
 - Portuguese
+- Spanish
 - Ukrainian
 
 If the locale of your device is set to none of the supported languages, Ingantt uses English in the user interface.
