@@ -39,6 +39,23 @@ All these views are fully functional, meaning that you can do every action avail
 
 Columns in all lists of tasks (**Split View**, **Editable Split View** or **List Only** views) can be turned on or off as well as rearranged using the **Options** dialog (**Task Columns** tab).
 
+## Create with AI
+
+By using Artificial Intelligence (AI), Ingantt can generate full project plans for you based on the description of your project.
+
+> See this page for a list of countries and languages supported by the AI: [https://ai.google.dev/gemini-api/docs/available-regions](https://ai.google.dev/gemini-api/docs/available-regions){:target="_blank"}.
+{: .prompt-warning }
+
+To create a project schedule with AI:
+
+1. Click on **+** when viewing the list of your projects
+2. Choose **Create new with AI**.
+3. Enter the description of your project in the dialog box.
+4. Click **Save**.
+
+> Your descriptions can be as generic as _"Development of an iOS food delivery app"_ or as specific as possible. If your project is big, try splitting it into sub-projects and generating separate project plans for them.
+{: .prompt-tip }
+
 ## Opening MPP files
 
 Ingantt can open local files in Microsoft Project's MPP format (".mpp" extension). If you make changes to such a file, they are saved by Ingantt in a new file using XML format which can also be opened by Microsoft Project.
