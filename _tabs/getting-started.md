@@ -25,9 +25,6 @@ Once installed, you can start working with Ingantt right away by creating, openi
 > When signing in, Ingantt requires permission to only be able to edit the files that it creates. No other files are read or written, and the permission for them is not requested.
 {: .prompt-info }
 
-![light mode only](/tabs/images/projects.png){: .light  .shadow .rounded-10 w='445' h='107' }
-![dark mode only](/tabs/images/projects_d.png){: .dark .shadow .rounded-10 w='445' h='107' }
-
 ## Creating basic schedule
 
 Let's say you have a small home renovation project of 2 tasks, one is done after another.

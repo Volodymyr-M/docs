@@ -63,11 +63,13 @@ Ingantt can open local files in Microsoft Project's MPP format (".mpp" extension
 > To open MPP files Ingantt sends them through a secure connection to Ingantt web service which converts them to XML format. Your files are not stored on the service. Internet connection is required.
 {: .prompt-info }
 
-## Printing / PDF export
+## Printing / PDF and PNG export
 
-Ingantt outputs your Gantt chart as a PDF file when **Printable PDF...** is chosen in the main menu. This file can be opened in your PDF reader app and then printed using the available printing functionality in that app.
+Ingantt outputs your Gantt chart as a PDF file when **Printable PDF** is chosen in the main menu. This file can be opened in your PDF reader app and then printed using the available printing functionality in that app.
 
 The file is generated using the same options as the Gantt chart in the user interface. This means, for example, that if the names of your tasks are set to be not visible in the **Options** dialog, task names in the generated PDF file will not be shown as well. Also, when you zoom in or out the Gantt chart in the user interface, the resulting PDF file has the same zoom settings.
+
+Similarly, when you choose **Export to PNG image** Ingantt creates a PNG file using the same options as the Gantt chart in the user interface, even including the current theme (light/dark).
 
 ## Supported languages
 

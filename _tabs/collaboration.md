@@ -14,9 +14,6 @@ If you're not signed in to Google, you can use Ingantt to open or edit local fil
 
 To save your files to your Google Drive, sign in to Google first. When you click on **Sign in with Google** button, a standard popup dialog from Google opens.
 
-![light mode only](/tabs/images/projects.png){: .light  .shadow .rounded-10 w='445' h='107' }
-![dark mode only](/tabs/images/projects_d.png){: .dark .shadow .rounded-10 w='445' h='107' }
-
 Ingantt asks you to enable the following permissions on Google:
 
 - *See your profile info*: this information is used to identify you as a user.
