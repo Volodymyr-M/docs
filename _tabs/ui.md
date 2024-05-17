@@ -43,9 +43,6 @@ Columns in all lists of tasks (**Split View**, **Editable Split View** or **List
 
 By using Artificial Intelligence (AI), Ingantt can generate full project plans for you based on the description of your project.
 
-> See this page for a list of countries and languages supported by the AI: [https://ai.google.dev/gemini-api/docs/available-regions](https://ai.google.dev/gemini-api/docs/available-regions){:target="_blank"}.
-{: .prompt-warning }
-
 To create a project schedule with AI:
 
 1. Click on **+** when viewing the list of your projects
