@@ -22,11 +22,7 @@ Ingantt asks you to enable the following permissions on Google:
 
 ## Troubleshooting Sign in to Google (Web)
 
-If you have any issues signing in it to Google from your web browser, check the following:
-
-- Google sign in is done via a popup from Google's side. Make sure your browser doesn't block popups for Ingantt.
-- Check that your browser does not block **Third party sign in** for Ingantt.
-- If you are unable to create or edit Ingantt files directly from the web interface of Google Drive, re-login and make sure to give Ingantt the permission to **Connect itself to your Google Drive**.
+If you don't see the options to create or edit Ingantt files directly from the web interface of Google Drive, re-login and make sure to give Ingantt the permission to **Connect itself to your Google Drive**.
 
 ## Sharing
 

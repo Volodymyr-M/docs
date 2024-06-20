@@ -50,7 +50,7 @@ To create a project schedule with AI:
 3. Enter the description of your project in the dialog box.
 4. Click **Save**.
 
-> Your descriptions can be as generic as _"Development of an iOS food delivery app"_ or as specific as possible. If your project is big, try splitting it into sub-projects and generating separate project plans for them.
+> Your descriptions can be as generic as _"Development of an iOS food delivery app"_ or as specific as possible. If your project is big, try splitting it into sub-projects and generating separate project plans for them. The AI can generate different results, so if you are not happy with the output, try again.
 {: .prompt-tip }
 
 ## Opening MPP files
