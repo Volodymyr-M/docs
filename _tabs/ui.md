@@ -74,13 +74,21 @@ If the locale of your device is set to one of the supported languages, Ingantt u
 
 The following user interface languages are supported by Ingantt:
 
+- Chinese (Simplified)
 - English
 - French
 - German
+- Hindi
+- Indonesian
 - Italian
+- Japanese
+- Korean
+- Malay
 - Polish
 - Portuguese
 - Spanish
+- Thai
+- Turkish
 - Ukrainian
 
 If the locale of your device is set to none of the supported languages, Ingantt uses English in the user interface.
