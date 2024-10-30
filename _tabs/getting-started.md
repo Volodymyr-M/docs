@@ -14,7 +14,7 @@ Ingantt is multi-platform, so install the version that is right for your device.
 - **Android:** [Get it on Google Play](https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt){:target="_blank"}
 - **macOS:** [Download on the Mac App Store](https://apps.apple.com/us/app/ingantt/id6450835363){:target="_blank"}
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/ingantt-project-scheduling/id6466750274){:target="_blank"}
-- **Web:** [Open this link](https://web.ingantt.com){:target="_blank"}
+- **Web:** [Get it from the Google Workspace Marketplace](https://workspace.google.com/marketplace/app/ingantt/286119906331){:target="_blank"}
 
 {% include contact.html %}
 
