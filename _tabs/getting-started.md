@@ -18,6 +18,12 @@ Ingantt is multi-platform, so install the version that is right for your device.
 
 {% include contact.html %}
 
+## Video
+
+Watch the video showing all the steps of this guide.
+
+{% include embed/youtube.html id='Tv27PyyIjJ4' %}
+
 ## Logging In (Optional)
 
 Once installed, you can start working with Ingantt right away by creating, opening, and saving local files on your device. If you would like to have your files in the cloud, you can **Sign in to Google**. This allows you to save and open your schedules from your **Google Drive** storage.
