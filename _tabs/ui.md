@@ -43,6 +43,8 @@ Columns in all task lists (**Split View**, **Editable Split View**, or **List On
 
 Ingantt can generate full project plans for you based on the description of your project using Artificial Intelligence (AI).
 
+{% include embed/youtube.html id='sOjhGy5BJso' %}
+
 To create a project schedule with AI:
 
 1. Click on **+** when viewing the list of your projects.
