@@ -35,4 +35,6 @@ Ingantt can create, open, and save local files on your device. If you choose, yo
 
 ## Platform Support
 
-Ingantt is available on Windows, macOS, Android, iOS, and the Web.
+Ingantt runs on Windows, macOS, Android, iOS, and the Web, but not every build is on the same version and this site does not cover all of them.
+
+These pages describe the {{ site.documented_build.platforms }} builds, app version {{ site.documented_build.version }}. The {{ site.documented_build.current_platforms }} builds are newer and are documented separately at [{{ site.documented_build.current_docs_url | remove: 'https://' }}]({{ site.documented_build.current_docs_url }}).

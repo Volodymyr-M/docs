@@ -1,0 +1,20 @@
+<!--
+  Which builds this site documents, and where to go if you are on a newer one.
+
+  Rendered at the top of every page (see _layouts/home.html and
+  _layouts/post.html). The values come from `documented_build` in _config.yml.
+
+  Styling is the theme's own prompt box: Chirpy styles
+  `blockquote[class^=prompt-]` in both light and dark mode, so this needs no
+  CSS of its own.
+-->
+<blockquote class="prompt-warning" id="build-coverage-banner">
+  <p>
+    <strong>This site documents the {{ site.documented_build.platforms }} builds of
+    Ingantt (app version {{ site.documented_build.version }}).</strong>
+    It is not kept up to date for {{ site.documented_build.current_platforms }},
+    which run a newer build — if that is what you are using, read
+    <a href="{{ site.documented_build.current_docs_url }}">{{ site.documented_build.current_docs_url | remove: 'https://' }}</a>
+    instead.
+  </p>
+</blockquote>

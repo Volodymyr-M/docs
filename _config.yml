@@ -85,6 +85,22 @@ avatar: assets/icons/Icon-512.png
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+# Which Ingantt builds this site documents.
+#
+# This site is the OLDER-build documentation. help.ingantt.com documents the
+# current Web and Android builds. Rendered as a banner on every page by
+# _includes/build-banner.html, and stated on the home page under
+# "Platform Support" in _includes/main.md.
+#
+# Update `version` when the documented build line changes, and keep it in step
+# with the comments in ingantt-com-source's templates/default.html and
+# templates/landing.html, which route platform pages between the two sites.
+documented_build:
+  platforms: "Windows, macOS, and iOS"
+  version: "2.4.x"
+  current_platforms: "Android and the Web"
+  current_docs_url: "https://help.ingantt.com"
+
 comments:
   active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
