@@ -11,7 +11,7 @@ order: 1
 Ingantt is multi-platform, so install the version that is right for your device.
 
 - **Web:** [Open the app](https://web.ingantt.com){:target="_blank"}
-- **Windows:** [Get it from Microsoft Store](ms-windows-store://pdp/?productid=9NHQ26QV09F6)
+- **Windows:** [Get it from Microsoft Store](https://apps.microsoft.com/detail/9NHQ26QV09F6){:target="_blank"}
 - **Android:** [Get it on Google Play](https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt){:target="_blank"}
 - **macOS:** [Download on the Mac App Store](https://apps.apple.com/us/app/ingantt/id6450835363){:target="_blank"}
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/ingantt-project-scheduling/id6466750274){:target="_blank"}
