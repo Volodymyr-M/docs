@@ -62,6 +62,11 @@ Ingantt can open local files in Microsoft Project's MPP format (".mpp" extension
 > To open MPP files, Ingantt sends them through a secure connection to the Ingantt web service, which converts them to XML format. Your files are not stored on the service. An internet connection is required.
 {: .prompt-info }
 
+Ingantt also opens MPT, MPX, XER, PMXML, GAN, PP, CDPX, FTS, POD, Planner, PPX, SDEF, SP and PEP files through the same conversion service.
+
+> Files sent for conversion are limited to **30 MB**. If your file is larger, open it in Microsoft Project and use **File → Save As → Project XML (.xml)**. Ingantt parses XML inside the app without uploading it, so the 30 MB limit does not apply.
+{: .prompt-warning }
+
 ## Printing / PDF and PNG Export
 
 Ingantt outputs your Gantt chart as a PDF file when **Printable PDF** is chosen in the main menu. This file can be opened in your PDF reader app and printed using the available printing functionality in that app.
